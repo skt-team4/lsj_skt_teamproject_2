@@ -1,0 +1,59 @@
+# 불필요한 파일들 제외
+.git/
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+
+# 대용량 파일들
+*.bin
+*.safetensors
+*.pdf
+*.mp4
+*.mov
+*.avi
+*.mkv
+models/
+checkpoints/
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 임시 파일
+temp/
+tmp/
+*.tmp
+
+# publicproject 디렉토리 제외 (별도 배포)
+publicproject/

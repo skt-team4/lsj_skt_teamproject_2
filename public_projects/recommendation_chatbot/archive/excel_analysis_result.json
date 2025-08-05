@@ -1,0 +1,6342 @@
+{
+  "file_name": "sample_data_copy.xlsx",
+  "total_sheets": 31,
+  "sheets": {
+    "shop": {
+      "name": "shop",
+      "rows": 11,
+      "columns": 38,
+      "column_list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "managerId",
+        "ordinaryShare",
+        "ordinaryDiscount",
+        "discountValue",
+        "shareNum",
+        "event",
+        "category",
+        "shopName",
+        "addressName",
+        "addressPoint",
+        "contact",
+        "openHour",
+        "closeHour",
+        "thumbnail",
+        "breakStartHour",
+        "breakEndHour",
+        "message",
+        "totalNanumCnt",
+        "approved",
+        "isGoodInfluenceShop",
+        "isFoodCardShop",
+        "is_incheon_ionbab",
+        "offDay",
+        "isAroundTheClock",
+        "sales_type",
+        "open_status",
+        "kt_idx",
+        "joined",
+        "brn",
+        "place_id",
+        "nursery_info_id",
+        "available_for",
+        "deleted_at",
+        "brand_id",
+        "gifticon_brand_id"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "20.0",
+            "21.0",
+            "3354.0"
+          ],
+          "unique_count": 10
+        },
+        "createdAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2023-07-23 17:49:45.069256",
+            "2023-07-24 12:49:30.979689",
+            "2023-12-05 18:19:23.051531"
+          ],
+          "unique_count": 10
+        },
+        "updatedAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-17 17:19:01.437665",
+            "2025-03-17 17:17:46.824682",
+            "2025-03-17 17:19:01.561921"
+          ],
+          "unique_count": 10
+        },
+        "managerId": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "58.0",
+            "55.0",
+            "1281.0"
+          ],
+          "unique_count": 10
+        },
+        "ordinaryShare": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "ordinaryDiscount": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "1",
+            "1",
+            "1"
+          ],
+          "unique_count": 3
+        },
+        "discountValue": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X컬럼"
+          ],
+          "unique_count": 1
+        },
+        "shareNum": {
+          "dtype": "object",
+          "non_null_count": 2,
+          "null_count": 9,
+          "sample_values": [
+            "5",
+            "사용X컬럼"
+          ],
+          "unique_count": 2
+        },
+        "event": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "category": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "일식",
+            "기타/디저트",
+            "한식"
+          ],
+          "unique_count": 5
+        },
+        "shopName": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "백년카츠 관악점",
+            "커피플래닛",
+            "청년밥상문간 낙성대점"
+          ],
+          "unique_count": 10
+        },
+        "addressName": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "서울 관악구 봉천로 391 제1싱가동 104호 백년카츠",
+            "서울 관악구 남부순환로 1508 커피플래닛",
+            "서울 관악구 남부순환로244길 26 지하 1층"
+          ],
+          "unique_count": 10
+        },
+        "addressPoint": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0x0000000001010000006473C6115EBC5F40C5DDCA73E1BD4240",
+            "0x000000000101000000A103D5FEC4BA5F401458E95ABABD4240",
+            "0x0000000001010000008292781D9EBD5F4001C731DBECBC4240"
+          ],
+          "unique_count": 10
+        },
+        "contact": {
+          "dtype": "object",
+          "non_null_count": 8,
+          "null_count": 3,
+          "sample_values": [
+            "028899923",
+            "0285803004",
+            "02-877-6031"
+          ],
+          "unique_count": 8
+        },
+        "openHour": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "11:00",
+            "7:00",
+            "11:30"
+          ],
+          "unique_count": 5
+        },
+        "closeHour": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "20:30",
+            "0:00",
+            "14:00"
+          ],
+          "unique_count": 8
+        },
+        "thumbnail": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/20/20230731_0612493530_20.jpg",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/21/20230731_0610199588_21.jpg",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3354/20240131_0236402349_3354.png"
+          ],
+          "unique_count": 10
+        },
+        "breakStartHour": {
+          "dtype": "object",
+          "non_null_count": 5,
+          "null_count": 6,
+          "sample_values": [
+            "15:00",
+            "14:30",
+            "16:00"
+          ],
+          "unique_count": 3
+        },
+        "breakEndHour": {
+          "dtype": "object",
+          "non_null_count": 5,
+          "null_count": 6,
+          "sample_values": [
+            "16:30",
+            "17:00",
+            "17:00"
+          ],
+          "unique_count": 2
+        },
+        "message": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "돈까스는 백년카츠가 젤 맛있어~",
+            "예약 가능 시간: 평일 13:00~18:00",
+            "*급식카드 유저의 경우, 아이와 함께 방문시 나눔 가능합니다.\n매주 일요일 정기휴무, 공휴일 휴무 \n청년밥상문간 낙성대점은 조충연, 박유선 후원자님께서 장소를 제공해 주셨습니다. 감사드립니다."
+          ],
+          "unique_count": 10
+        },
+        "totalNanumCnt": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "approved": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "1",
+            "1",
+            "1"
+          ],
+          "unique_count": 2
+        },
+        "isGoodInfluenceShop": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "0.0"
+          ],
+          "unique_count": 1
+        },
+        "isFoodCardShop": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "unknown",
+            "no",
+            "unknown"
+          ],
+          "unique_count": 3
+        },
+        "is_incheon_ionbab": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "offDay": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "[]",
+            "[]",
+            "[0]"
+          ],
+          "unique_count": 4
+        },
+        "isAroundTheClock": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 3
+        },
+        "sales_type": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "BOTH",
+            "BOTH",
+            "BOTH"
+          ],
+          "unique_count": 2
+        },
+        "open_status": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "CLOSED",
+            "CLOSED",
+            "CLOSED"
+          ],
+          "unique_count": 2
+        },
+        "kt_idx": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X컬럼"
+          ],
+          "unique_count": 1
+        },
+        "joined": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "1",
+            "1",
+            "1"
+          ],
+          "unique_count": 2
+        },
+        "brn": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "252-36-00575",
+            "478-59-00628",
+            "614-82-03234"
+          ],
+          "unique_count": 10
+        },
+        "place_id": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X컬럼"
+          ],
+          "unique_count": 1
+        },
+        "nursery_info_id": {
+          "dtype": "object",
+          "non_null_count": 7,
+          "null_count": 4,
+          "sample_values": [
+            "ca693850454c4f8ba90a7a81c761894d",
+            "00901357-f0c8-4b12-99da-c0af762a6a1d",
+            "62bd12f9768c4a21831c26672b5a2591"
+          ],
+          "unique_count": 7
+        },
+        "available_for": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "BOTH",
+            "BOTH",
+            "BOTH"
+          ],
+          "unique_count": 3
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "brand_id": {
+          "dtype": "float64",
+          "non_null_count": 7,
+          "null_count": 4,
+          "sample_values": [
+            "1.0",
+            "1.0",
+            "1.0"
+          ],
+          "unique_count": 3
+        },
+        "gifticon_brand_id": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X컬럼"
+          ],
+          "unique_count": 1
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "20.0",
+          "createdAt": "2023-07-23 17:49:45.069256",
+          "updatedAt": "2025-03-17 17:19:01.437665",
+          "managerId": "58.0",
+          "ordinaryShare": "0",
+          "ordinaryDiscount": "1",
+          "discountValue": null,
+          "shareNum": null,
+          "event": "0",
+          "category": "일식",
+          "shopName": "백년카츠 관악점",
+          "addressName": "서울 관악구 봉천로 391 제1싱가동 104호 백년카츠",
+          "addressPoint": "0x0000000001010000006473C6115EBC5F40C5DDCA73E1BD4240",
+          "contact": "028899923",
+          "openHour": "11:00",
+          "closeHour": "20:30",
+          "thumbnail": "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/20/20230731_0612493530_20.jpg",
+          "breakStartHour": "15:00",
+          "breakEndHour": "16:30",
+          "message": "돈까스는 백년카츠가 젤 맛있어~",
+          "totalNanumCnt": "0",
+          "approved": "1",
+          "isGoodInfluenceShop": "0.0",
+          "isFoodCardShop": "unknown",
+          "is_incheon_ionbab": "0",
+          "offDay": "[]",
+          "isAroundTheClock": "0",
+          "sales_type": "BOTH",
+          "open_status": "CLOSED",
+          "kt_idx": null,
+          "joined": "1",
+          "brn": "252-36-00575",
+          "place_id": null,
+          "nursery_info_id": "ca693850454c4f8ba90a7a81c761894d",
+          "available_for": "BOTH",
+          "deleted_at": null,
+          "brand_id": null,
+          "gifticon_brand_id": null
+        },
+        {
+          "id": "21.0",
+          "createdAt": "2023-07-24 12:49:30.979689",
+          "updatedAt": "2025-03-17 17:17:46.824682",
+          "managerId": "55.0",
+          "ordinaryShare": "0",
+          "ordinaryDiscount": "1",
+          "discountValue": null,
+          "shareNum": "5",
+          "event": "0",
+          "category": "기타/디저트",
+          "shopName": "커피플래닛",
+          "addressName": "서울 관악구 남부순환로 1508 커피플래닛",
+          "addressPoint": "0x000000000101000000A103D5FEC4BA5F401458E95ABABD4240",
+          "contact": "0285803004",
+          "openHour": "7:00",
+          "closeHour": "0:00",
+          "thumbnail": "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/21/20230731_0610199588_21.jpg",
+          "breakStartHour": null,
+          "breakEndHour": null,
+          "message": "예약 가능 시간: 평일 13:00~18:00",
+          "totalNanumCnt": "0",
+          "approved": "1",
+          "isGoodInfluenceShop": "0.0",
+          "isFoodCardShop": "no",
+          "is_incheon_ionbab": "0",
+          "offDay": "[]",
+          "isAroundTheClock": "0",
+          "sales_type": "BOTH",
+          "open_status": "CLOSED",
+          "kt_idx": null,
+          "joined": "1",
+          "brn": "478-59-00628",
+          "place_id": null,
+          "nursery_info_id": "00901357-f0c8-4b12-99da-c0af762a6a1d",
+          "available_for": "BOTH",
+          "deleted_at": null,
+          "brand_id": null,
+          "gifticon_brand_id": null
+        },
+        {
+          "id": "3354.0",
+          "createdAt": "2023-12-05 18:19:23.051531",
+          "updatedAt": "2025-03-17 17:19:01.561921",
+          "managerId": "1281.0",
+          "ordinaryShare": "0",
+          "ordinaryDiscount": "1",
+          "discountValue": null,
+          "shareNum": null,
+          "event": "0",
+          "category": "한식",
+          "shopName": "청년밥상문간 낙성대점",
+          "addressName": "서울 관악구 남부순환로244길 26 지하 1층",
+          "addressPoint": "0x0000000001010000008292781D9EBD5F4001C731DBECBC4240",
+          "contact": "02-877-6031",
+          "openHour": "11:30",
+          "closeHour": "14:00",
+          "thumbnail": "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3354/20240131_0236402349_3354.png",
+          "breakStartHour": null,
+          "breakEndHour": null,
+          "message": "*급식카드 유저의 경우, 아이와 함께 방문시 나눔 가능합니다.\n매주 일요일 정기휴무, 공휴일 휴무 \n청년밥상문간 낙성대점은 조충연, 박유선 후원자님께서 장소를 제공해 주셨습니다. 감사드립니다.",
+          "totalNanumCnt": "0",
+          "approved": "1",
+          "isGoodInfluenceShop": "0.0",
+          "isFoodCardShop": "unknown",
+          "is_incheon_ionbab": "0",
+          "offDay": "[0]",
+          "isAroundTheClock": "0",
+          "sales_type": "BOTH",
+          "open_status": "CLOSED",
+          "kt_idx": null,
+          "joined": "1",
+          "brn": "614-82-03234",
+          "place_id": null,
+          "nursery_info_id": "62bd12f9768c4a21831c26672b5a2591",
+          "available_for": "BOTH",
+          "deleted_at": null,
+          "brand_id": "1.0",
+          "gifticon_brand_id": null
+        }
+      ]
+    },
+    "shop_menu": {
+      "name": "shop_menu",
+      "rows": 11,
+      "columns": 15,
+      "column_list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "shop_id",
+        "is_sold_out",
+        "name",
+        "description",
+        "price",
+        "img",
+        "discount_value",
+        "is_best",
+        "category_id",
+        "deleted_at",
+        "priority",
+        "type"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "32.0",
+            "22.0",
+            "22331.0"
+          ],
+          "unique_count": 10
+        },
+        "createdAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2023-07-31 17:26:29.692512",
+            "2023-07-31 17:05:42.781290",
+            "2023-12-05 18:24:03.128805"
+          ],
+          "unique_count": 10
+        },
+        "updatedAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-17 17:33:05.722399",
+            "2025-03-17 17:33:03.930437",
+            "2025-03-17 17:33:05.676750"
+          ],
+          "unique_count": 10
+        },
+        "shop_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "20.0",
+            "21.0",
+            "3354.0"
+          ],
+          "unique_count": 10
+        },
+        "is_sold_out": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "0.0"
+          ],
+          "unique_count": 1
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "특등심카츠",
+            "돌체라떼(연유라떼)ICE",
+            "김치찌개"
+          ],
+          "unique_count": 6
+        },
+        "description": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "등심, 레몬, 생와사비, 밥, 국, 반찬, 샐러드, 소스 제공됩니다",
+            "돌체라떼(연유라떼)ICE",
+            "공기밥 포함"
+          ],
+          "unique_count": 6
+        },
+        "price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "12500.0",
+            "4500.0",
+            "3000.0"
+          ],
+          "unique_count": 6
+        },
+        "img": {
+          "dtype": "object",
+          "non_null_count": 9,
+          "null_count": 2,
+          "sample_values": [
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/32/20230731_052629_32.jpg",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/22/20230731_050542_22.jpg",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/22331/20231205_092403_22331.jpg"
+          ],
+          "unique_count": 9
+        },
+        "discount_value": {
+          "dtype": "object",
+          "non_null_count": 2,
+          "null_count": 9,
+          "sample_values": [
+            "12000원",
+            "지금은 쓰이지만, 추후 사용 X 예정"
+          ],
+          "unique_count": 2
+        },
+        "is_best": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "1.0"
+          ],
+          "unique_count": 2
+        },
+        "category_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "a14791910f974475ad23f0ea6af62ed3",
+            "f9cb351f50e14066aa23e721408045de",
+            "8236b6ecde9e40f489946633cf7faa86"
+          ],
+          "unique_count": 10
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "priority": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "10000",
+            "10000",
+            "10000"
+          ],
+          "unique_count": 4
+        },
+        "type": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "MENU",
+            "MENU",
+            "MENU"
+          ],
+          "unique_count": 2
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "32.0",
+          "createdAt": "2023-07-31 17:26:29.692512",
+          "updatedAt": "2025-03-17 17:33:05.722399",
+          "shop_id": "20.0",
+          "is_sold_out": "0.0",
+          "name": "특등심카츠",
+          "description": "등심, 레몬, 생와사비, 밥, 국, 반찬, 샐러드, 소스 제공됩니다",
+          "price": "12500.0",
+          "img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/32/20230731_052629_32.jpg",
+          "discount_value": null,
+          "is_best": "0.0",
+          "category_id": "a14791910f974475ad23f0ea6af62ed3",
+          "deleted_at": null,
+          "priority": "10000",
+          "type": "MENU"
+        },
+        {
+          "id": "22.0",
+          "createdAt": "2023-07-31 17:05:42.781290",
+          "updatedAt": "2025-03-17 17:33:03.930437",
+          "shop_id": "21.0",
+          "is_sold_out": "0.0",
+          "name": "돌체라떼(연유라떼)ICE",
+          "description": "돌체라떼(연유라떼)ICE",
+          "price": "4500.0",
+          "img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/22/20230731_050542_22.jpg",
+          "discount_value": null,
+          "is_best": "0.0",
+          "category_id": "f9cb351f50e14066aa23e721408045de",
+          "deleted_at": null,
+          "priority": "10000",
+          "type": "MENU"
+        },
+        {
+          "id": "22331.0",
+          "createdAt": "2023-12-05 18:24:03.128805",
+          "updatedAt": "2025-03-17 17:33:05.676750",
+          "shop_id": "3354.0",
+          "is_sold_out": "0.0",
+          "name": "김치찌개",
+          "description": "공기밥 포함",
+          "price": "3000.0",
+          "img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/22331/20231205_092403_22331.jpg",
+          "discount_value": null,
+          "is_best": "1.0",
+          "category_id": "8236b6ecde9e40f489946633cf7faa86",
+          "deleted_at": null,
+          "priority": "10000",
+          "type": "MENU"
+        }
+      ]
+    },
+    "shop_menu_category": {
+      "name": "shop_menu_category",
+      "rows": 11,
+      "columns": 6,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "name",
+        "priority",
+        "shop_id"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "1b01ca412a9c40da8986ee03d58ed0b0",
+            "5af2044daacc4547bcb42d67d2833bc5",
+            "5b89b8f9e6da43fb9048918d895c7a30"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-03-12 16:56:49,2024-03-12 16:56:49",
+            "2024-01-23 17:55:08,2024-01-23 17:55:08",
+            "2024-01-23 17:55:08,2024-01-23 17:55:08"
+          ],
+          "unique_count": 6
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-03-12 16:56:49,2024-03-12 16:56:49",
+            "2024-01-23 17:55:08,2024-01-23 17:55:08",
+            "2024-01-23 17:55:08,2024-01-23 17:55:08"
+          ],
+          "unique_count": 6
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "기본",
+            "미지정",
+            "기본"
+          ],
+          "unique_count": 5
+        },
+        "priority": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "9997",
+            "10000",
+            "9997"
+          ],
+          "unique_count": 5
+        },
+        "shop_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "3497.0",
+            "3355.0",
+            "3373.0"
+          ],
+          "unique_count": 10
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "1b01ca412a9c40da8986ee03d58ed0b0",
+          "created_at": "2024-03-12 16:56:49,2024-03-12 16:56:49",
+          "updated_at": "2024-03-12 16:56:49,2024-03-12 16:56:49",
+          "name": "기본",
+          "priority": "9997",
+          "shop_id": "3497.0"
+        },
+        {
+          "id": "5af2044daacc4547bcb42d67d2833bc5",
+          "created_at": "2024-01-23 17:55:08,2024-01-23 17:55:08",
+          "updated_at": "2024-01-23 17:55:08,2024-01-23 17:55:08",
+          "name": "미지정",
+          "priority": "10000",
+          "shop_id": "3355.0"
+        },
+        {
+          "id": "5b89b8f9e6da43fb9048918d895c7a30",
+          "created_at": "2024-01-23 17:55:08,2024-01-23 17:55:08",
+          "updated_at": "2024-01-23 17:55:08,2024-01-23 17:55:08",
+          "name": "기본",
+          "priority": "9997",
+          "shop_id": "3373.0"
+        }
+      ]
+    },
+    "shop_menu_option": {
+      "name": "shop_menu_option",
+      "rows": 10,
+      "columns": 8,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "name",
+        "price",
+        "is_sold_out",
+        "option_category_id",
+        "priority"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "00008fc02eaa42aca660fa6561590d16",
+            "00013f171cde48d4885a03f9b6ac09b7",
+            "000c78fa691a4a84bedfea537cc6ab26"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-04-03 23:12:01",
+            "2024-06-21 00:49:33",
+            "2024-06-21 14:27:33"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-04-03 23:12:01",
+            "2024-06-21 00:49:33",
+            "2024-06-21 14:27:33"
+          ],
+          "unique_count": 10
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "동진,현광 근접 빌라 상가 등",
+            "쫄깃한 납작당면 추가(50g)",
+            "수제 레몬차 ice"
+          ],
+          "unique_count": 10
+        },
+        "price": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "3500",
+            "1000",
+            "5000"
+          ],
+          "unique_count": 7
+        },
+        "is_sold_out": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 1
+        },
+        "option_category_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "429504399d204c94b1b3f4726b00edf3",
+            "90a77a6753774f028f367c79eaec54cb",
+            "968257266e174e348b5b4f1cc88803b3"
+          ],
+          "unique_count": 10
+        },
+        "priority": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "10000",
+            "10000",
+            "10000"
+          ],
+          "unique_count": 2
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "00008fc02eaa42aca660fa6561590d16",
+          "created_at": "2024-04-03 23:12:01",
+          "updated_at": "2024-04-03 23:12:01",
+          "name": "동진,현광 근접 빌라 상가 등",
+          "price": "3500",
+          "is_sold_out": "0",
+          "option_category_id": "429504399d204c94b1b3f4726b00edf3",
+          "priority": "10000"
+        },
+        {
+          "id": "00013f171cde48d4885a03f9b6ac09b7",
+          "created_at": "2024-06-21 00:49:33",
+          "updated_at": "2024-06-21 00:49:33",
+          "name": "쫄깃한 납작당면 추가(50g)",
+          "price": "1000",
+          "is_sold_out": "0",
+          "option_category_id": "90a77a6753774f028f367c79eaec54cb",
+          "priority": "10000"
+        },
+        {
+          "id": "000c78fa691a4a84bedfea537cc6ab26",
+          "created_at": "2024-06-21 14:27:33",
+          "updated_at": "2024-06-21 14:27:33",
+          "name": "수제 레몬차 ice",
+          "price": "5000",
+          "is_sold_out": "0",
+          "option_category_id": "968257266e174e348b5b4f1cc88803b3",
+          "priority": "10000"
+        }
+      ]
+    },
+    "shop_menu_option_category": {
+      "name": "shop_menu_option_category",
+      "rows": 10,
+      "columns": 10,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "name",
+        "description",
+        "min_selection_count",
+        "max_selection_count",
+        "is_required",
+        "shop_id",
+        "priority"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "0005f8f2711a4b9d897c6bb31d82337c",
+            "00073ce9cce24d2f9de25e05456c5b26",
+            "000a8df092e3418e84c94c8b286e96b9"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-05-08 20:32:19",
+            "2024-06-08 15:12:13",
+            "2024-08-30 17:37:23"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-05-08 20:32:19",
+            "2024-06-08 15:12:13",
+            "2024-08-30 17:40:24"
+          ],
+          "unique_count": 10
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2.5인분 음료선택",
+            "맛 선택",
+            "직불 쫄삼세트 가격"
+          ],
+          "unique_count": 9
+        },
+        "description": {
+          "dtype": "object",
+          "non_null_count": 2,
+          "null_count": 8,
+          "sample_values": [
+            "맛 선택",
+            "갈비찜 선택"
+          ],
+          "unique_count": 2
+        },
+        "min_selection_count": {
+          "dtype": "float64",
+          "non_null_count": 7,
+          "null_count": 3,
+          "sample_values": [
+            "1.0",
+            "1.0",
+            "1.0"
+          ],
+          "unique_count": 1
+        },
+        "max_selection_count": {
+          "dtype": "float64",
+          "non_null_count": 7,
+          "null_count": 3,
+          "sample_values": [
+            "1.0",
+            "1.0",
+            "1.0"
+          ],
+          "unique_count": 1
+        },
+        "is_required": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "1",
+            "1"
+          ],
+          "unique_count": 2
+        },
+        "shop_id": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "3964",
+            "4105",
+            "4745"
+          ],
+          "unique_count": 10
+        },
+        "priority": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "10000",
+            "10000",
+            "19"
+          ],
+          "unique_count": 3
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "0005f8f2711a4b9d897c6bb31d82337c",
+          "created_at": "2024-05-08 20:32:19",
+          "updated_at": "2024-05-08 20:32:19",
+          "name": "2.5인분 음료선택",
+          "description": null,
+          "min_selection_count": null,
+          "max_selection_count": null,
+          "is_required": "0",
+          "shop_id": "3964",
+          "priority": "10000"
+        },
+        {
+          "id": "00073ce9cce24d2f9de25e05456c5b26",
+          "created_at": "2024-06-08 15:12:13",
+          "updated_at": "2024-06-08 15:12:13",
+          "name": "맛 선택",
+          "description": "맛 선택",
+          "min_selection_count": "1.0",
+          "max_selection_count": "1.0",
+          "is_required": "1",
+          "shop_id": "4105",
+          "priority": "10000"
+        },
+        {
+          "id": "000a8df092e3418e84c94c8b286e96b9",
+          "created_at": "2024-08-30 17:37:23",
+          "updated_at": "2024-08-30 17:40:24",
+          "name": "직불 쫄삼세트 가격",
+          "description": null,
+          "min_selection_count": "1.0",
+          "max_selection_count": "1.0",
+          "is_required": "1",
+          "shop_id": "4745",
+          "priority": "19"
+        }
+      ]
+    },
+    "shop_menu_option_category_map": {
+      "name": "shop_menu_option_category_map",
+      "rows": 10,
+      "columns": 5,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "menu_id",
+        "option_category_id"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "00059393765b4e23b5d701bd11e1ffd0",
+            "00068fc42aea44e598c7958e5b43226c",
+            "000ec9b2b669473a982960c949e662cd"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-07-05 00:48:48",
+            "2024-08-12 18:24:15",
+            "2024-04-03 22:42:18"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-07-05 00:48:48",
+            "2024-08-12 18:24:15",
+            "2024-04-03 22:42:18"
+          ],
+          "unique_count": 10
+        },
+        "menu_id": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "233558",
+            "233588",
+            "229373"
+          ],
+          "unique_count": 10
+        },
+        "option_category_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2e4874aa5045453c834b9a9580991f80",
+            "97eb9a50c0fa4219884633a04d60aeb2",
+            "726ef36353af42e0a4fad8dae1e2fdf5"
+          ],
+          "unique_count": 10
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "00059393765b4e23b5d701bd11e1ffd0",
+          "created_at": "2024-07-05 00:48:48",
+          "updated_at": "2024-07-05 00:48:48",
+          "menu_id": "233558",
+          "option_category_id": "2e4874aa5045453c834b9a9580991f80"
+        },
+        {
+          "id": "00068fc42aea44e598c7958e5b43226c",
+          "created_at": "2024-08-12 18:24:15",
+          "updated_at": "2024-08-12 18:24:15",
+          "menu_id": "233588",
+          "option_category_id": "97eb9a50c0fa4219884633a04d60aeb2"
+        },
+        {
+          "id": "000ec9b2b669473a982960c949e662cd",
+          "created_at": "2024-04-03 22:42:18",
+          "updated_at": "2024-04-03 22:42:18",
+          "menu_id": "229373",
+          "option_category_id": "726ef36353af42e0a4fad8dae1e2fdf5"
+        }
+      ]
+    },
+    "brand": {
+      "name": "brand",
+      "rows": 8,
+      "columns": 15,
+      "column_list": [
+        "id",
+        "name",
+        "brand_manager_id",
+        "logo",
+        "description",
+        "site_url",
+        "instagram_link",
+        "facebook_link",
+        "youtube_link",
+        "detail_img",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "primary_color",
+        "is_active"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 8,
+          "null_count": 0,
+          "sample_values": [
+            "1",
+            "2",
+            "3"
+          ],
+          "unique_count": 8
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 7,
+          "null_count": 1,
+          "sample_values": [
+            "청년밥상문간",
+            "유가네닭갈비",
+            "봉리단길"
+          ],
+          "unique_count": 7
+        },
+        "brand_manager_id": {
+          "dtype": "float64",
+          "non_null_count": 7,
+          "null_count": 1,
+          "sample_values": [
+            "563.0",
+            "2081.0",
+            "109.0"
+          ],
+          "unique_count": 5
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [],
+      "error": "'cp949' codec can't encode character '\\u110b' in position 189: illegal multibyte sequence"
+    },
+    "products": {
+      "name": "products",
+      "rows": 11,
+      "columns": 16,
+      "column_list": [
+        "id",
+        "name",
+        "origin_price",
+        "discounted_price",
+        "thumbnail",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "company",
+        "detail_img_src",
+        "quantity",
+        "type",
+        "category",
+        "number",
+        "product_company_id",
+        "delivery_fee"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0393878934f048b788a3246f5e1ed14c",
+            "19129a47e88c41b691751ea82739ec7e",
+            "1ef0e4c6d8a9468b910a19f01d739c67"
+          ],
+          "unique_count": 11
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "[1+1할인] [250mlX24개입] 아침대용 식사대용 프리미엄쌀음료 더쌀063",
+            "[하나 사면 하나 기부] 머선 129 빠져드네 유산균(1,500mg x 90정)",
+            "[250mlX12개입] 아침대용 식사대용 프리미엄쌀음료 더쌀063"
+          ],
+          "unique_count": 9
+        },
+        "origin_price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "72000.0",
+            "23500.0",
+            "36000.0"
+          ],
+          "unique_count": 6
+        },
+        "discounted_price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "39800.0",
+            "23500.0",
+            "24800.0"
+          ],
+          "unique_count": 6
+        },
+        "thumbnail": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/2d899ed365ed4f6f95079dc3d934e36c/image.png",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/e066b8bbd1f9402bb4567c9d0b3cf461/image.webp",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/55b5108065904df1811954cbc8b61ad6/image.webp"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-12 17:58:16",
+            "2025-02-18 13:09:32",
+            "2025-02-19 17:50:13"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-25 16:38:22",
+            "2025-04-23 10:39:23",
+            "2025-04-05 19:35:50"
+          ],
+          "unique_count": 10
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "company": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "패션에이블",
+            "포항바이오파크",
+            "패션에이블"
+          ],
+          "unique_count": 3
+        },
+        "detail_img_src": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/b610cdb99af64b11a8ee2bfd48ba4a68/image.webp",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/d415e8b924644610ad1806b97bbb5b43/image.webp",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/fe22dcacf57e452db419c476d6f0b67c/image.webp"
+          ],
+          "unique_count": 10
+        },
+        "quantity": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "197.0",
+            "0.0",
+            "85.0"
+          ],
+          "unique_count": 9
+        },
+        "type": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "APPROVED_USER",
+            "NORMAL_USER",
+            "APPROVED_USER"
+          ],
+          "unique_count": 3
+        },
+        "category": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "FOOD",
+            "HEALTH",
+            "FOOD"
+          ],
+          "unique_count": 2
+        },
+        "number": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "17df64029f7f",
+            "8cf7939f1c62",
+            "546cbc83182a"
+          ],
+          "unique_count": 10
+        },
+        "product_company_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "e4f271a9a76449b585c5352002c31303",
+            "dfc4177da2ae458d855b9133c338288a",
+            "e4f271a9a76449b585c5352002c31303"
+          ],
+          "unique_count": 3
+        },
+        "delivery_fee": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "0.0"
+          ],
+          "unique_count": 1
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "0393878934f048b788a3246f5e1ed14c",
+          "name": "[1+1할인] [250mlX24개입] 아침대용 식사대용 프리미엄쌀음료 더쌀063",
+          "origin_price": "72000.0",
+          "discounted_price": "39800.0",
+          "thumbnail": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/2d899ed365ed4f6f95079dc3d934e36c/image.png",
+          "created_at": "2025-03-12 17:58:16",
+          "updated_at": "2025-04-25 16:38:22",
+          "deleted_at": null,
+          "company": "패션에이블",
+          "detail_img_src": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/b610cdb99af64b11a8ee2bfd48ba4a68/image.webp",
+          "quantity": "197.0",
+          "type": "APPROVED_USER",
+          "category": "FOOD",
+          "number": "17df64029f7f",
+          "product_company_id": "e4f271a9a76449b585c5352002c31303",
+          "delivery_fee": "0.0"
+        },
+        {
+          "id": "19129a47e88c41b691751ea82739ec7e",
+          "name": "[하나 사면 하나 기부] 머선 129 빠져드네 유산균(1,500mg x 90정)",
+          "origin_price": "23500.0",
+          "discounted_price": "23500.0",
+          "thumbnail": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/e066b8bbd1f9402bb4567c9d0b3cf461/image.webp",
+          "created_at": "2025-02-18 13:09:32",
+          "updated_at": "2025-04-23 10:39:23",
+          "deleted_at": null,
+          "company": "포항바이오파크",
+          "detail_img_src": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/d415e8b924644610ad1806b97bbb5b43/image.webp",
+          "quantity": "0.0",
+          "type": "NORMAL_USER",
+          "category": "HEALTH",
+          "number": "8cf7939f1c62",
+          "product_company_id": "dfc4177da2ae458d855b9133c338288a",
+          "delivery_fee": "0.0"
+        },
+        {
+          "id": "1ef0e4c6d8a9468b910a19f01d739c67",
+          "name": "[250mlX12개입] 아침대용 식사대용 프리미엄쌀음료 더쌀063",
+          "origin_price": "36000.0",
+          "discounted_price": "24800.0",
+          "thumbnail": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/55b5108065904df1811954cbc8b61ad6/image.webp",
+          "created_at": "2025-02-19 17:50:13",
+          "updated_at": "2025-04-05 19:35:50",
+          "deleted_at": null,
+          "company": "패션에이블",
+          "detail_img_src": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/fe22dcacf57e452db419c476d6f0b67c/image.webp",
+          "quantity": "85.0",
+          "type": "APPROVED_USER",
+          "category": "FOOD",
+          "number": "546cbc83182a",
+          "product_company_id": "e4f271a9a76449b585c5352002c31303",
+          "delivery_fee": "0.0"
+        }
+      ]
+    },
+    "coop_coupon": {
+      "name": "coop_coupon",
+      "rows": 11,
+      "columns": 30,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "is_best",
+        "hidden_at",
+        "stopped_at",
+        "company_id",
+        "comp_name",
+        "comp_code",
+        "code",
+        "origin_name",
+        "name",
+        "menu_code",
+        "use_price",
+        "sel_price",
+        "adj_price",
+        "use_area",
+        "use_limit",
+        "use_note",
+        "use_term",
+        "out_type",
+        "use_yn",
+        "tax_yn",
+        "vat_yn",
+        "basic_img",
+        "view_img_1",
+        "view_img_2",
+        "view_img_3",
+        "det_img"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "00054fabb0e04137baa0a3cc3c243147",
+            "0010c21962fa4bdaa5741511a859a39a",
+            "0028ddac4e964827b9638e575d7040dc"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-11-25 02:29:24",
+            "2025-07-03 15:35:58",
+            "2025-05-13 18:45:51"
+          ],
+          "unique_count": 5
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-11-25 02:34:52",
+            "2025-07-03 15:35:59",
+            "2025-05-13 18:47:18"
+          ],
+          "unique_count": 8
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "is_best": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "0.0"
+          ],
+          "unique_count": 1
+        },
+        "hidden_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "stopped_at": {
+          "dtype": "object",
+          "non_null_count": 3,
+          "null_count": 8,
+          "sample_values": [
+            "2025-07-07 23:59:00",
+            "2025-07-07 23:59:00",
+            "2025-02-28 23:59:00"
+          ],
+          "unique_count": 2
+        },
+        "company_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0fb62478c65a422e8535919968b4a09e",
+            "d908adbde4234461a98f69217ed3ccf9",
+            "b59a789855644be0a42cd64a93ecebb3"
+          ],
+          "unique_count": 9
+        },
+        "comp_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "이디야커피",
+            "메가박스",
+            "노브랜드버거"
+          ],
+          "unique_count": 9
+        },
+        "comp_code": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "E485",
+            "EB12",
+            "NB02"
+          ],
+          "unique_count": 9
+        },
+        "code": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "00E4851Z00001",
+            "00EB12FG00001",
+            "00NB02GZ00002"
+          ],
+          "unique_count": 10
+        },
+        "origin_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "베이컨 포테이토 스퀘어피자",
+            "1인권",
+            "크리스피 너겟(3조각)"
+          ],
+          "unique_count": 10
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "베이컨 포테이토 스퀘어피자",
+            "1인권",
+            "크리스피 너겟(3조각)"
+          ],
+          "unique_count": 10
+        },
+        "menu_code": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "1Z",
+            "FG",
+            "GZ"
+          ],
+          "unique_count": 10
+        },
+        "use_price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "4200.0",
+            "15000.0",
+            "2000.0"
+          ],
+          "unique_count": 10
+        },
+        "sel_price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "4200.0",
+            "14000.0",
+            "2000.0"
+          ],
+          "unique_count": 10
+        },
+        "adj_price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "4074.0",
+            "14000.0",
+            "1960.0"
+          ],
+          "unique_count": 10
+        },
+        "use_area": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "이디야커피 전 매장 사용 가능합니다.\n단, 공항, 리조트, 휴게소 등 특수매장 및 일부 매장 사용 불가\n\n(이디야커피랩, 상지대2호점, 광양포스코점, 광양체육관점, 구미삼성점, GSBA점,  9사단점,  서울렛츠런파크점,  단양대명리조트점, 캠프케이시점)",
+            "이용가능매장: 메가박스 전국지점 (아트나인 제외)\n* 선불충전금의 보호 : 당사는 전자금융거래법 제 25조의2 및 제25조의 3, 동 시행령 제13조의 7에 따라 선불충전금 전액을 보호조치 하고 있습니다. (증권번호 제 100-000-2024-0445-6694 호)",
+            "전국 노브랜드버거 매장 내 키오스크/포스에서 사용 가능합니다. (일부매장 제외)\n\n[사용 불가매장]\n*서울 : 중화점, 문정역점, 메가박스상암점\n*인천 : SSG랜더스필드점, 인천스퀘어점\n*경기 : 안산복합휴게소점, 용인수지구청점, 평택호휴게소점\n*충남 : 예산예당호휴게소점\n*호남 : 여수챌린지파크점\n\n* 선불충전금의 보호 : 당사는 전자금융거래법 제 25조의2 및 제25조의 3, 동 시행령 제13조의 7에 따라 선불충전금 전액을 보호조치 하고 있습니다. (증권번호 제 100-000-2024-0445-6694 호)"
+          ],
+          "unique_count": 10
+        },
+        "use_limit": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "1. 매장 별 재고 상황에 따라 구매가 어려운 경우에는 동일 가격 이상의 타 음료로 교환 가능합니다.\n2. 본 교환권은 동일 금액의 타 상품으로 교환이 가능합니다. 단 교환하신 타 상품이 권면가액 이상인 경우에는 추가 금액을 지불하셔야 합니다.\n3. 타 쿠폰 중복 사용 및 스탬프 적립 가능합니다. (베이커리,빙수,RTD 등의 경우 적립 불가)\n4. 제품 교환 시 사용처(가맹점 등)에서 현금영수증 발급이 가능합니다.\n5. 환불, 교환, 승인에 대한 문의는 쿠폰 구매처에 문의해 주시기 바랍니다.(이디야커피는 쿠폰 구매처가 아니고 사용처입니다.)\n6. 정식 판매처 외의 장소나 경로를 통하여 구매하거나 기타의 방법으로 보유하신 쿠폰은 정상적이 사용(환불, 재전송 등 포함)이 금지되거나 제한 될 수 있으니 주의하시기 바랍니다.",
+            "구성 : 2D 일반관람권 1매\n\n- 본 관람권은 주중/주말/공휴일에 사용 가능합니다. \n- 본 관람권은 일반관, 컴포트관에서 2D 일반컨텐츠 관람이 가능합니다.\n- 3D컨텐츠, LED관, 르 리클라이너관, 더부티크(스위트 제외), Dolby Atmos 관 및 특별석 이용 시 추가금액 발생됩니다.\n- Dolby cinema, 더부티크스위트, 발코니석, 로얄석, 커플석, 특별컨텐츠, MX4D 컨텐츠, VR 컨텐츠 등에는 추가차액 지불과 무관하게 사용이 불가합니다.\n- 본 관람권은 메가박스 온라인(홈페이지/WEB/APP)과 오프라인(현장 매표소/키오스크)에서 사용이 가능합니다.\n- 본 관람권은 메가박스 포인트 적립이 불가합니다.\n- 본 관람권은 현금으로 교환 및 환불이 불가합니다.\n- 본 관람권을 이용하여 예매 후 관람을 하지 않아도 사용 처리되며, 영화 상영 20분 전까지만 취소가 가능합니다.\n- 본 관람권은 추후 가격정책에 따라 티켓 금액이 변동되어도 차액 환불이 불가합니다.",
+            "1. 본 쿠폰은 매장 방문 또는 NBB앱에서 등록 후 사용 가능합니다. \n2. 매장 사정에 따라 조기 품절될 수 있습니다.\n3. 본 상품은 매장 재고 상황에 따라 동일 상품으로 교환이 불가능 할 수 있습니다.\n4. 동일 상품 교환이 불가능한 경우, 동일 가격 이상의 타 제품으로만 교환이 가능하며, 초과금액은 추가 지불하셔야 합니다.\n5. 사용 금액에 대한 현금영수증 발행이 가능합니다.\n6. 환불, 교환, 승인에 대한 문의는 쿠폰 구매처에 문의주시기 바랍니다.\n7. 다량의 쿠폰 사용 시 사전에 사용 매장으로 문의 부탁드립니다.\n8. 일부 매장은 사용이 어려울 수 있습니다. (이용가능매장 확인)\n9. 본 쿠폰은 현금으로 교환되지 않습니다.\n10. 보유하신 쿠폰의 제품 가격이 인상되었을 경우 차액을 지불하지 않아도 됩니다.\n11. 정식 판매처 외의 장소나 경로를 통하여 구매하거나, 기타의 방법으로 보유하신 쿠폰은 정상적인 사용 (환불, 재전송 등 포함)이 금지되거나 제한될 수 있으니 주의하시기 바랍니다.\n12. 상기 이미지는 연출된 것으로 실제와 다를 수 있습니다."
+          ],
+          "unique_count": 10
+        },
+        "use_note": {
+          "dtype": "object",
+          "non_null_count": 9,
+          "null_count": 2,
+          "sample_values": [
+            "* 지급보증 : 본 상품은 별도의 지급보증 및 피해보상 보험계약체결 없이 자체 신용으로 발행되었습니다.",
+            "※온라인 예매 시 : 메가박스 홈페이지/APP/WEB 회원 로그인 > 영화, 상영일시, 인원, 좌석 선택 > 관람권/모바일상품권 > 모바일관람권 > 핀번호 등록 후 적용\n\n※현장 키오스크 예매 시 : 예매 카테고리 > 영화, 상영일시, 인원, 좌석 선택 > 관람권/모바일상품권 > 모바일관람권 > 핀번호 등록 후 적용",
+            "[키오스크 사용방법]\n- 원하는 메뉴를 담은 후 결제하기 선택 > 결제 수단에서 모바일상품권 선택 후 바코드 스캔\n[NBB 앱 사용법]\n- NBB 전용앱 > 쿠폰 > 모바일상품권 탭 > 모바일 상품권 추가 > 결제 화면에서 추가된 모바일 상품권 사용하여 결제 \n- 원하는 메뉴를 담은 후 주문하기 선택 > 결제 화면에서 모바일 상품권 선택 > 모바일상품권 추가 버튼으로 상품권 등록 > 상품권 사용하여 결제"
+          ],
+          "unique_count": 9
+        },
+        "use_term": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "366.0",
+            "365.0",
+            "366.0"
+          ],
+          "unique_count": 2
+        },
+        "out_type": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "11100.0",
+            "11100.0",
+            "11100.0"
+          ],
+          "unique_count": 2
+        },
+        "use_yn": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "Y",
+            "Y",
+            "Y"
+          ],
+          "unique_count": 1
+        },
+        "tax_yn": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "N",
+            "N",
+            "N"
+          ],
+          "unique_count": 1
+        },
+        "vat_yn": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "basic_img": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "/E485/1Z/0001.jpg",
+            "/EB12/FG/0001.jpg",
+            "/NB02/GZ/0001.jpg"
+          ],
+          "unique_count": 10
+        },
+        "view_img_1": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "/E485/1Z/0002.jpg",
+            "/EB12/FG/0002.jpg",
+            "/NB02/GZ/0002.jpg"
+          ],
+          "unique_count": 10
+        },
+        "view_img_2": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "/E485/1Z/0003.jpg",
+            "/EB12/FG/0003.jpg",
+            "/NB02/GZ/0003.jpg"
+          ],
+          "unique_count": 10
+        },
+        "view_img_3": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00E4851Z00001/befee45f5e7a4b7dbf62b677ae0a8cc8/image.jpeg",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20250703153558/00EB12FG00001/6d5f68f8a91a4e11ae6642e55d2d8615/image.jpeg",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20250513184625/00NB02GZ00002/9cd1ecb14dec493ba25d6f8957b9743e/image.jpeg"
+          ],
+          "unique_count": 10
+        },
+        "det_img": {
+          "dtype": "object",
+          "non_null_count": 9,
+          "null_count": 2,
+          "sample_values": [
+            "/E485/1Z/0006.jpg",
+            "/EB12/FG/0006.jpg",
+            "/NB02/GZ/0006.jpg"
+          ],
+          "unique_count": 9
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "00054fabb0e04137baa0a3cc3c243147",
+          "created_at": "2024-11-25 02:29:24",
+          "updated_at": "2024-11-25 02:34:52",
+          "deleted_at": null,
+          "is_best": "0.0",
+          "hidden_at": null,
+          "stopped_at": null,
+          "company_id": "0fb62478c65a422e8535919968b4a09e",
+          "comp_name": "이디야커피",
+          "comp_code": "E485",
+          "code": "00E4851Z00001",
+          "origin_name": "베이컨 포테이토 스퀘어피자",
+          "name": "베이컨 포테이토 스퀘어피자",
+          "menu_code": "1Z",
+          "use_price": "4200.0",
+          "sel_price": "4200.0",
+          "adj_price": "4074.0",
+          "use_area": "이디야커피 전 매장 사용 가능합니다.\n단, 공항, 리조트, 휴게소 등 특수매장 및 일부 매장 사용 불가\n\n(이디야커피랩, 상지대2호점, 광양포스코점, 광양체육관점, 구미삼성점, GSBA점,  9사단점,  서울렛츠런파크점,  단양대명리조트점, 캠프케이시점)",
+          "use_limit": "1. 매장 별 재고 상황에 따라 구매가 어려운 경우에는 동일 가격 이상의 타 음료로 교환 가능합니다.\n2. 본 교환권은 동일 금액의 타 상품으로 교환이 가능합니다. 단 교환하신 타 상품이 권면가액 이상인 경우에는 추가 금액을 지불하셔야 합니다.\n3. 타 쿠폰 중복 사용 및 스탬프 적립 가능합니다. (베이커리,빙수,RTD 등의 경우 적립 불가)\n4. 제품 교환 시 사용처(가맹점 등)에서 현금영수증 발급이 가능합니다.\n5. 환불, 교환, 승인에 대한 문의는 쿠폰 구매처에 문의해 주시기 바랍니다.(이디야커피는 쿠폰 구매처가 아니고 사용처입니다.)\n6. 정식 판매처 외의 장소나 경로를 통하여 구매하거나 기타의 방법으로 보유하신 쿠폰은 정상적이 사용(환불, 재전송 등 포함)이 금지되거나 제한 될 수 있으니 주의하시기 바랍니다.",
+          "use_note": "* 지급보증 : 본 상품은 별도의 지급보증 및 피해보상 보험계약체결 없이 자체 신용으로 발행되었습니다.",
+          "use_term": "366.0",
+          "out_type": "11100.0",
+          "use_yn": "Y",
+          "tax_yn": "N",
+          "vat_yn": null,
+          "basic_img": "/E485/1Z/0001.jpg",
+          "view_img_1": "/E485/1Z/0002.jpg",
+          "view_img_2": "/E485/1Z/0003.jpg",
+          "view_img_3": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00E4851Z00001/befee45f5e7a4b7dbf62b677ae0a8cc8/image.jpeg",
+          "det_img": "/E485/1Z/0006.jpg"
+        },
+        {
+          "id": "0010c21962fa4bdaa5741511a859a39a",
+          "created_at": "2025-07-03 15:35:58",
+          "updated_at": "2025-07-03 15:35:59",
+          "deleted_at": null,
+          "is_best": "0.0",
+          "hidden_at": null,
+          "stopped_at": null,
+          "company_id": "d908adbde4234461a98f69217ed3ccf9",
+          "comp_name": "메가박스",
+          "comp_code": "EB12",
+          "code": "00EB12FG00001",
+          "origin_name": "1인권",
+          "name": "1인권",
+          "menu_code": "FG",
+          "use_price": "15000.0",
+          "sel_price": "14000.0",
+          "adj_price": "14000.0",
+          "use_area": "이용가능매장: 메가박스 전국지점 (아트나인 제외)\n* 선불충전금의 보호 : 당사는 전자금융거래법 제 25조의2 및 제25조의 3, 동 시행령 제13조의 7에 따라 선불충전금 전액을 보호조치 하고 있습니다. (증권번호 제 100-000-2024-0445-6694 호)",
+          "use_limit": "구성 : 2D 일반관람권 1매\n\n- 본 관람권은 주중/주말/공휴일에 사용 가능합니다. \n- 본 관람권은 일반관, 컴포트관에서 2D 일반컨텐츠 관람이 가능합니다.\n- 3D컨텐츠, LED관, 르 리클라이너관, 더부티크(스위트 제외), Dolby Atmos 관 및 특별석 이용 시 추가금액 발생됩니다.\n- Dolby cinema, 더부티크스위트, 발코니석, 로얄석, 커플석, 특별컨텐츠, MX4D 컨텐츠, VR 컨텐츠 등에는 추가차액 지불과 무관하게 사용이 불가합니다.\n- 본 관람권은 메가박스 온라인(홈페이지/WEB/APP)과 오프라인(현장 매표소/키오스크)에서 사용이 가능합니다.\n- 본 관람권은 메가박스 포인트 적립이 불가합니다.\n- 본 관람권은 현금으로 교환 및 환불이 불가합니다.\n- 본 관람권을 이용하여 예매 후 관람을 하지 않아도 사용 처리되며, 영화 상영 20분 전까지만 취소가 가능합니다.\n- 본 관람권은 추후 가격정책에 따라 티켓 금액이 변동되어도 차액 환불이 불가합니다.",
+          "use_note": "※온라인 예매 시 : 메가박스 홈페이지/APP/WEB 회원 로그인 > 영화, 상영일시, 인원, 좌석 선택 > 관람권/모바일상품권 > 모바일관람권 > 핀번호 등록 후 적용\n\n※현장 키오스크 예매 시 : 예매 카테고리 > 영화, 상영일시, 인원, 좌석 선택 > 관람권/모바일상품권 > 모바일관람권 > 핀번호 등록 후 적용",
+          "use_term": "365.0",
+          "out_type": "11100.0",
+          "use_yn": "Y",
+          "tax_yn": "N",
+          "vat_yn": null,
+          "basic_img": "/EB12/FG/0001.jpg",
+          "view_img_1": "/EB12/FG/0002.jpg",
+          "view_img_2": "/EB12/FG/0003.jpg",
+          "view_img_3": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20250703153558/00EB12FG00001/6d5f68f8a91a4e11ae6642e55d2d8615/image.jpeg",
+          "det_img": "/EB12/FG/0006.jpg"
+        },
+        {
+          "id": "0028ddac4e964827b9638e575d7040dc",
+          "created_at": "2025-05-13 18:45:51",
+          "updated_at": "2025-05-13 18:47:18",
+          "deleted_at": null,
+          "is_best": "0.0",
+          "hidden_at": null,
+          "stopped_at": null,
+          "company_id": "b59a789855644be0a42cd64a93ecebb3",
+          "comp_name": "노브랜드버거",
+          "comp_code": "NB02",
+          "code": "00NB02GZ00002",
+          "origin_name": "크리스피 너겟(3조각)",
+          "name": "크리스피 너겟(3조각)",
+          "menu_code": "GZ",
+          "use_price": "2000.0",
+          "sel_price": "2000.0",
+          "adj_price": "1960.0",
+          "use_area": "전국 노브랜드버거 매장 내 키오스크/포스에서 사용 가능합니다. (일부매장 제외)\n\n[사용 불가매장]\n*서울 : 중화점, 문정역점, 메가박스상암점\n*인천 : SSG랜더스필드점, 인천스퀘어점\n*경기 : 안산복합휴게소점, 용인수지구청점, 평택호휴게소점\n*충남 : 예산예당호휴게소점\n*호남 : 여수챌린지파크점\n\n* 선불충전금의 보호 : 당사는 전자금융거래법 제 25조의2 및 제25조의 3, 동 시행령 제13조의 7에 따라 선불충전금 전액을 보호조치 하고 있습니다. (증권번호 제 100-000-2024-0445-6694 호)",
+          "use_limit": "1. 본 쿠폰은 매장 방문 또는 NBB앱에서 등록 후 사용 가능합니다. \n2. 매장 사정에 따라 조기 품절될 수 있습니다.\n3. 본 상품은 매장 재고 상황에 따라 동일 상품으로 교환이 불가능 할 수 있습니다.\n4. 동일 상품 교환이 불가능한 경우, 동일 가격 이상의 타 제품으로만 교환이 가능하며, 초과금액은 추가 지불하셔야 합니다.\n5. 사용 금액에 대한 현금영수증 발행이 가능합니다.\n6. 환불, 교환, 승인에 대한 문의는 쿠폰 구매처에 문의주시기 바랍니다.\n7. 다량의 쿠폰 사용 시 사전에 사용 매장으로 문의 부탁드립니다.\n8. 일부 매장은 사용이 어려울 수 있습니다. (이용가능매장 확인)\n9. 본 쿠폰은 현금으로 교환되지 않습니다.\n10. 보유하신 쿠폰의 제품 가격이 인상되었을 경우 차액을 지불하지 않아도 됩니다.\n11. 정식 판매처 외의 장소나 경로를 통하여 구매하거나, 기타의 방법으로 보유하신 쿠폰은 정상적인 사용 (환불, 재전송 등 포함)이 금지되거나 제한될 수 있으니 주의하시기 바랍니다.\n12. 상기 이미지는 연출된 것으로 실제와 다를 수 있습니다.",
+          "use_note": "[키오스크 사용방법]\n- 원하는 메뉴를 담은 후 결제하기 선택 > 결제 수단에서 모바일상품권 선택 후 바코드 스캔\n[NBB 앱 사용법]\n- NBB 전용앱 > 쿠폰 > 모바일상품권 탭 > 모바일 상품권 추가 > 결제 화면에서 추가된 모바일 상품권 사용하여 결제 \n- 원하는 메뉴를 담은 후 주문하기 선택 > 결제 화면에서 모바일 상품권 선택 > 모바일상품권 추가 버튼으로 상품권 등록 > 상품권 사용하여 결제",
+          "use_term": "366.0",
+          "out_type": "11100.0",
+          "use_yn": "Y",
+          "tax_yn": "N",
+          "vat_yn": null,
+          "basic_img": "/NB02/GZ/0001.jpg",
+          "view_img_1": "/NB02/GZ/0002.jpg",
+          "view_img_2": "/NB02/GZ/0003.jpg",
+          "view_img_3": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20250513184625/00NB02GZ00002/9cd1ecb14dec493ba25d6f8957b9743e/image.jpeg",
+          "det_img": "/NB02/GZ/0006.jpg"
+        }
+      ]
+    },
+    "coop_brand": {
+      "name": "coop_brand",
+      "rows": 11,
+      "columns": 10,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "hidden_at",
+        "stopped_at",
+        "name",
+        "image_url",
+        "category_id",
+        "category_name"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "07f45e335f164b29b5029949f8bbca02",
+            "0d652718d32d45f1bf5a4a99b695613a",
+            "0dc1cba1a8c349cd98daf3945f07b209"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-11-25 00:07:59",
+            "2025-01-13 18:54:54",
+            "2024-11-25 00:07:59"
+          ],
+          "unique_count": 6
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-07 21:19:26",
+            "2025-01-15 11:17:04",
+            "2024-11-25 12:21:45"
+          ],
+          "unique_count": 9
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "hidden_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "stopped_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "역전우동",
+            "반올림피자",
+            "뚜레쥬르"
+          ],
+          "unique_count": 10
+        },
+        "image_url": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%AE%E1%84%83%E1%85%A9%E1%86%BC.png",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%87%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%86%B7%E1%84%91%E1%85%B5%E1%84%8C%E1%85%A1.png",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%84%E1%85%B2%E1%84%85%E1%85%A6%E1%84%8C%E1%85%AE%E1%84%85%E1%85%B3.png"
+          ],
+          "unique_count": 10
+        },
+        "category_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "93cab55cdabd4b3ea69790b0c95cd8dc",
+            "2808478759864386995fb1efc00fdd0a",
+            "fb28b2adb06341a08282bc1e7e8ccc6f"
+          ],
+          "unique_count": 6
+        },
+        "category_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "한식",
+            "피자",
+            "베이커리"
+          ],
+          "unique_count": 6
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "07f45e335f164b29b5029949f8bbca02",
+          "created_at": "2024-11-25 00:07:59",
+          "updated_at": "2025-03-07 21:19:26",
+          "deleted_at": null,
+          "hidden_at": null,
+          "stopped_at": null,
+          "name": "역전우동",
+          "image_url": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%AE%E1%84%83%E1%85%A9%E1%86%BC.png",
+          "category_id": "93cab55cdabd4b3ea69790b0c95cd8dc",
+          "category_name": "한식"
+        },
+        {
+          "id": "0d652718d32d45f1bf5a4a99b695613a",
+          "created_at": "2025-01-13 18:54:54",
+          "updated_at": "2025-01-15 11:17:04",
+          "deleted_at": null,
+          "hidden_at": null,
+          "stopped_at": null,
+          "name": "반올림피자",
+          "image_url": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%87%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%86%B7%E1%84%91%E1%85%B5%E1%84%8C%E1%85%A1.png",
+          "category_id": "2808478759864386995fb1efc00fdd0a",
+          "category_name": "피자"
+        },
+        {
+          "id": "0dc1cba1a8c349cd98daf3945f07b209",
+          "created_at": "2024-11-25 00:07:59",
+          "updated_at": "2024-11-25 12:21:45",
+          "deleted_at": null,
+          "hidden_at": null,
+          "stopped_at": null,
+          "name": "뚜레쥬르",
+          "image_url": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%84%E1%85%B2%E1%84%85%E1%85%A6%E1%84%8C%E1%85%AE%E1%84%85%E1%85%B3.png",
+          "category_id": "fb28b2adb06341a08282bc1e7e8ccc6f",
+          "category_name": "베이커리"
+        }
+      ]
+    },
+    "coop_category": {
+      "name": "coop_category",
+      "rows": 10,
+      "columns": 5,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "name"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "1800e739b2d24f36b64f7a1a65395f0b",
+            "22bfeabc78204edaae6cb688f38fb62e",
+            "2808478759864386995fb1efc00fdd0a"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-11-24 23:49:57",
+            "2024-11-24 23:49:57",
+            "2024-11-24 23:49:57"
+          ],
+          "unique_count": 3
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-11-24 23:49:57",
+            "2024-11-24 23:49:57",
+            "2024-11-24 23:49:57"
+          ],
+          "unique_count": 3
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 10,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "양식",
+            "중식",
+            "피자"
+          ],
+          "unique_count": 10
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "1800e739b2d24f36b64f7a1a65395f0b",
+          "created_at": "2024-11-24 23:49:57",
+          "updated_at": "2024-11-24 23:49:57",
+          "deleted_at": null,
+          "name": "양식"
+        },
+        {
+          "id": "22bfeabc78204edaae6cb688f38fb62e",
+          "created_at": "2024-11-24 23:49:57",
+          "updated_at": "2024-11-24 23:49:57",
+          "deleted_at": null,
+          "name": "중식"
+        },
+        {
+          "id": "2808478759864386995fb1efc00fdd0a",
+          "created_at": "2024-11-24 23:49:57",
+          "updated_at": "2024-11-24 23:49:57",
+          "deleted_at": null,
+          "name": "피자"
+        }
+      ]
+    },
+    "coop_company": {
+      "name": "coop_company",
+      "rows": 11,
+      "columns": 8,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "name",
+        "code",
+        "brand_id",
+        "category_name"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "01ce41511e334af3b00ca508a01a2d92",
+            "0363ee2d2536449f9913ff08fdaf273e",
+            "08fdc878575e4916a96b9a06114bd26e"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-01-13 22:03:47",
+            "2025-03-05 21:09:40",
+            "2025-01-13 22:00:21"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-01-13 22:13:25",
+            "2025-03-05 21:09:40",
+            "2025-01-13 22:13:25"
+          ],
+          "unique_count": 7
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "페이즈_할리스",
+            "롤링파스타(금액권)",
+            "페이즈_아그라"
+          ],
+          "unique_count": 10
+        },
+        "code": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "PA32",
+            "P016",
+            "PA14"
+          ],
+          "unique_count": 10
+        },
+        "brand_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "6da14a1ffc644aa1801c10084b1ef643",
+            "9fbabecfa1a24ef084deef32904fd98e",
+            "9912b60da52a4e4eb2908b6664ce65ac"
+          ],
+          "unique_count": 9
+        },
+        "category_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "카페/디저트",
+            "양식",
+            "아시아"
+          ],
+          "unique_count": 6
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "01ce41511e334af3b00ca508a01a2d92",
+          "created_at": "2025-01-13 22:03:47",
+          "updated_at": "2025-01-13 22:13:25",
+          "deleted_at": null,
+          "name": "페이즈_할리스",
+          "code": "PA32",
+          "brand_id": "6da14a1ffc644aa1801c10084b1ef643",
+          "category_name": "카페/디저트"
+        },
+        {
+          "id": "0363ee2d2536449f9913ff08fdaf273e",
+          "created_at": "2025-03-05 21:09:40",
+          "updated_at": "2025-03-05 21:09:40",
+          "deleted_at": null,
+          "name": "롤링파스타(금액권)",
+          "code": "P016",
+          "brand_id": "9fbabecfa1a24ef084deef32904fd98e",
+          "category_name": "양식"
+        },
+        {
+          "id": "08fdc878575e4916a96b9a06114bd26e",
+          "created_at": "2025-01-13 22:00:21",
+          "updated_at": "2025-01-13 22:13:25",
+          "deleted_at": null,
+          "name": "페이즈_아그라",
+          "code": "PA14",
+          "brand_id": "9912b60da52a4e4eb2908b6664ce65ac",
+          "category_name": "아시아"
+        }
+      ]
+    },
+    "ticket": {
+      "name": "ticket",
+      "rows": 11,
+      "columns": 19,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "user_id",
+        "shop_id",
+        "user_coupon_id",
+        "ticket_number",
+        "expired_at",
+        "paid_at",
+        "used_at",
+        "canceled_at",
+        "point_amount",
+        "platform_discount_value",
+        "shop_name",
+        "shop_thumbnail",
+        "cancel_reason",
+        "bbugiddogi_point_amount",
+        "bongridangil_point_amount",
+        "giftcard_wallet_tx_id"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "00086bc343e540a08a02f487b518fd60",
+            "004abfbb98fc4a9b9ba1b155b6f880f9",
+            "004dee77dea24648b7fc60f12e90b8b9"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-04 13:41:26",
+            "2025-02-28 17:20:36",
+            "2025-01-25 13:19:46"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-04 13:52:32",
+            "2025-02-28 17:20:46",
+            "2025-01-25 13:20:16"
+          ],
+          "unique_count": 10
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "7413.0",
+            "2431.0",
+            "7635.0"
+          ],
+          "unique_count": 10
+        },
+        "shop_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "3497.0",
+            "3497.0",
+            "3497.0"
+          ],
+          "unique_count": 4
+        },
+        "user_coupon_id": {
+          "dtype": "object",
+          "non_null_count": 8,
+          "null_count": 3,
+          "sample_values": [
+            "bac6f933c14646078cbfd4f2f7d3ff7a",
+            "0f118461ff514e3299063c91177d7067",
+            "5459de6a22664446957690a05f6ccce1"
+          ],
+          "unique_count": 8
+        },
+        "ticket_number": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "T0000000DG8",
+            "T0000000E97",
+            "T0000000DA1"
+          ],
+          "unique_count": 10
+        },
+        "expired_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-04 16:41:06",
+            "2025-02-28 18:06:06",
+            "2025-01-25 16:19:03"
+          ],
+          "unique_count": 10
+        },
+        "paid_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-04 13:41:26",
+            "2025-02-28 17:20:37",
+            "2025-01-25 13:20:12"
+          ],
+          "unique_count": 10
+        },
+        "used_at": {
+          "dtype": "object",
+          "non_null_count": 8,
+          "null_count": 3,
+          "sample_values": [
+            "2025-02-04 13:52:32",
+            "2025-02-28 17:20:46",
+            "2025-01-25 13:20:16"
+          ],
+          "unique_count": 8
+        },
+        "canceled_at": {
+          "dtype": "object",
+          "non_null_count": 2,
+          "null_count": 9,
+          "sample_values": [
+            "2025-01-06 23:00:00",
+            "2025-01-10 02:54:01"
+          ],
+          "unique_count": 2
+        },
+        "point_amount": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "0.0"
+          ],
+          "unique_count": 1
+        },
+        "platform_discount_value": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "shop_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "청년밥상문간 슬로우점(혜화점)",
+            "청년밥상문간 슬로우점(혜화점)",
+            "청년밥상문간 슬로우점(혜화점)"
+          ],
+          "unique_count": 4
+        },
+        "shop_thumbnail": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3497/20240312_0751061863_3497.webp",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3497/20240312_0751061863_3497.webp",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3497/20240312_0751061863_3497.webp"
+          ],
+          "unique_count": 4
+        },
+        "cancel_reason": {
+          "dtype": "object",
+          "non_null_count": 2,
+          "null_count": 9,
+          "sample_values": [
+            "사용제한시간 쿠폰을 사용한 교환권이 만료되어 시스템에 의한 자동 취소.",
+            "다른 메뉴로 다시 결제할게요"
+          ],
+          "unique_count": 2
+        },
+        "bbugiddogi_point_amount": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "bongridangil_point_amount": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "giftcard_wallet_tx_id": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "27a0e202504240932231BeL0"
+          ],
+          "unique_count": 1
+        }
+      },
+      "user_related_columns": [
+        "user_id",
+        "user_coupon_id"
+      ],
+      "sample_data": [
+        {
+          "id": "00086bc343e540a08a02f487b518fd60",
+          "created_at": "2025-02-04 13:41:26",
+          "updated_at": "2025-02-04 13:52:32",
+          "user_id": "7413.0",
+          "shop_id": "3497.0",
+          "user_coupon_id": "bac6f933c14646078cbfd4f2f7d3ff7a",
+          "ticket_number": "T0000000DG8",
+          "expired_at": "2025-02-04 16:41:06",
+          "paid_at": "2025-02-04 13:41:26",
+          "used_at": "2025-02-04 13:52:32",
+          "canceled_at": null,
+          "point_amount": "0.0",
+          "platform_discount_value": "0",
+          "shop_name": "청년밥상문간 슬로우점(혜화점)",
+          "shop_thumbnail": "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3497/20240312_0751061863_3497.webp",
+          "cancel_reason": null,
+          "bbugiddogi_point_amount": "0",
+          "bongridangil_point_amount": "0",
+          "giftcard_wallet_tx_id": null
+        },
+        {
+          "id": "004abfbb98fc4a9b9ba1b155b6f880f9",
+          "created_at": "2025-02-28 17:20:36",
+          "updated_at": "2025-02-28 17:20:46",
+          "user_id": "2431.0",
+          "shop_id": "3497.0",
+          "user_coupon_id": "0f118461ff514e3299063c91177d7067",
+          "ticket_number": "T0000000E97",
+          "expired_at": "2025-02-28 18:06:06",
+          "paid_at": "2025-02-28 17:20:37",
+          "used_at": "2025-02-28 17:20:46",
+          "canceled_at": null,
+          "point_amount": "0.0",
+          "platform_discount_value": "0",
+          "shop_name": "청년밥상문간 슬로우점(혜화점)",
+          "shop_thumbnail": "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3497/20240312_0751061863_3497.webp",
+          "cancel_reason": null,
+          "bbugiddogi_point_amount": "0",
+          "bongridangil_point_amount": "0",
+          "giftcard_wallet_tx_id": null
+        },
+        {
+          "id": "004dee77dea24648b7fc60f12e90b8b9",
+          "created_at": "2025-01-25 13:19:46",
+          "updated_at": "2025-01-25 13:20:16",
+          "user_id": "7635.0",
+          "shop_id": "3497.0",
+          "user_coupon_id": "5459de6a22664446957690a05f6ccce1",
+          "ticket_number": "T0000000DA1",
+          "expired_at": "2025-01-25 16:19:03",
+          "paid_at": "2025-01-25 13:20:12",
+          "used_at": "2025-01-25 13:20:16",
+          "canceled_at": null,
+          "point_amount": "0.0",
+          "platform_discount_value": "0",
+          "shop_name": "청년밥상문간 슬로우점(혜화점)",
+          "shop_thumbnail": "https://naviblobstorages.blob.core.windows.net/navi-blob/app/images/shop/3497/20240312_0751061863_3497.webp",
+          "cancel_reason": null,
+          "bbugiddogi_point_amount": "0",
+          "bongridangil_point_amount": "0",
+          "giftcard_wallet_tx_id": null
+        }
+      ]
+    },
+    "ticket_menu": {
+      "name": "ticket_menu",
+      "rows": 10,
+      "columns": 10,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "menu_name",
+        "menu_origin_price",
+        "menu_price",
+        "quantity",
+        "ticket_id",
+        "menu_id",
+        "menu_img"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "000e0c9faa0d4cd884287ae3d4ae3ade",
+            "00111301de25473ab346d72798c88649",
+            "0013167aeba446d281b0b8bd4bd432b8"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-10-23 16:38:49",
+            "2024-09-30 18:47:23",
+            "2025-03-07 12:26:20"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-10-23 16:38:49",
+            "2024-09-30 18:47:23",
+            "2025-03-07 12:26:20"
+          ],
+          "unique_count": 10
+        },
+        "menu_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "오징어링(5개)",
+            "김치찌개",
+            "[고기는사랑입니다.] 부채살스테이크덮밥"
+          ],
+          "unique_count": 5
+        },
+        "menu_origin_price": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "3700",
+            "3000",
+            "11900"
+          ],
+          "unique_count": 5
+        },
+        "menu_price": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "3700",
+            "3000",
+            "11900"
+          ],
+          "unique_count": 5
+        },
+        "quantity": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "1",
+            "1",
+            "1"
+          ],
+          "unique_count": 1
+        },
+        "ticket_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "070e80294f4d4c639e8fbccbfef8e971",
+            "d2fb8846b97e48c280c5d159bb4da075",
+            "a5339a5252b747dfb85ca69aeb899bfb"
+          ],
+          "unique_count": 10
+        },
+        "menu_id": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "233307",
+            "225695",
+            "230482"
+          ],
+          "unique_count": 8
+        },
+        "menu_img": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/233307/20240702_115939_233307.png",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/225695/20240312_075743_225695.png",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/230482/20240418_093600_230482.png"
+          ],
+          "unique_count": 8
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "000e0c9faa0d4cd884287ae3d4ae3ade",
+          "created_at": "2024-10-23 16:38:49",
+          "updated_at": "2024-10-23 16:38:49",
+          "menu_name": "오징어링(5개)",
+          "menu_origin_price": "3700",
+          "menu_price": "3700",
+          "quantity": "1",
+          "ticket_id": "070e80294f4d4c639e8fbccbfef8e971",
+          "menu_id": "233307",
+          "menu_img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/233307/20240702_115939_233307.png"
+        },
+        {
+          "id": "00111301de25473ab346d72798c88649",
+          "created_at": "2024-09-30 18:47:23",
+          "updated_at": "2024-09-30 18:47:23",
+          "menu_name": "김치찌개",
+          "menu_origin_price": "3000",
+          "menu_price": "3000",
+          "quantity": "1",
+          "ticket_id": "d2fb8846b97e48c280c5d159bb4da075",
+          "menu_id": "225695",
+          "menu_img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/225695/20240312_075743_225695.png"
+        },
+        {
+          "id": "0013167aeba446d281b0b8bd4bd432b8",
+          "created_at": "2025-03-07 12:26:20",
+          "updated_at": "2025-03-07 12:26:20",
+          "menu_name": "[고기는사랑입니다.] 부채살스테이크덮밥",
+          "menu_origin_price": "11900",
+          "menu_price": "11900",
+          "quantity": "1",
+          "ticket_id": "a5339a5252b747dfb85ca69aeb899bfb",
+          "menu_id": "230482",
+          "menu_img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/230482/20240418_093600_230482.png"
+        }
+      ]
+    },
+    "ticket_menu_option": {
+      "name": "ticket_menu_option",
+      "rows": 10,
+      "columns": 9,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "name",
+        "price",
+        "option_category_name",
+        "option_id",
+        "ticket_menu_id",
+        "option_category_id"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "0004a5396aee4972a2cf6c7e96b36852",
+            "00185d28fd6f459e866587c97a517626",
+            "00202f95c3a64799bc5342433e4459a4"
+          ],
+          "unique_count": 10
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-06-18 10:21:22",
+            "2025-04-09 16:54:50",
+            "2024-09-04 21:52:56"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "2024-06-18 10:21:22",
+            "2025-04-09 16:54:50",
+            "2024-09-04 21:52:56"
+          ],
+          "unique_count": 10
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "햄사리",
+            "라면사리",
+            "과일 추가"
+          ],
+          "unique_count": 9
+        },
+        "price": {
+          "dtype": "int64",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "1000",
+            "1000",
+            "2000"
+          ],
+          "unique_count": 4
+        },
+        "option_category_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "추가 옵션",
+            "추가 옵션",
+            "생과일쥬스"
+          ],
+          "unique_count": 6
+        },
+        "option_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "ee304854b71542cdaea76ba5d1f79589",
+            "95bc7644cd5e408fb862d59ce04c56cc",
+            "68300ddf68cc4f72aad3b3d43cc53e6c"
+          ],
+          "unique_count": 10
+        },
+        "ticket_menu_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "c076aa328b144631887f7d3ecad83d86",
+            "c820b35954984a9695583450774443d5",
+            "610b3937e09a433386a4e7fd572690a8"
+          ],
+          "unique_count": 10
+        },
+        "option_category_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "d56a3897606e4dae8e96019b757020e2",
+            "d56a3897606e4dae8e96019b757020e2",
+            "ec05ed5b57704a878b9b98e42b5fb878"
+          ],
+          "unique_count": 8
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "0004a5396aee4972a2cf6c7e96b36852",
+          "created_at": "2024-06-18 10:21:22",
+          "updated_at": "2024-06-18 10:21:22",
+          "name": "햄사리",
+          "price": "1000",
+          "option_category_name": "추가 옵션",
+          "option_id": "ee304854b71542cdaea76ba5d1f79589",
+          "ticket_menu_id": "c076aa328b144631887f7d3ecad83d86",
+          "option_category_id": "d56a3897606e4dae8e96019b757020e2"
+        },
+        {
+          "id": "00185d28fd6f459e866587c97a517626",
+          "created_at": "2025-04-09 16:54:50",
+          "updated_at": "2025-04-09 16:54:50",
+          "name": "라면사리",
+          "price": "1000",
+          "option_category_name": "추가 옵션",
+          "option_id": "95bc7644cd5e408fb862d59ce04c56cc",
+          "ticket_menu_id": "c820b35954984a9695583450774443d5",
+          "option_category_id": "d56a3897606e4dae8e96019b757020e2"
+        },
+        {
+          "id": "00202f95c3a64799bc5342433e4459a4",
+          "created_at": "2024-09-04 21:52:56",
+          "updated_at": "2024-09-04 21:52:56",
+          "name": "과일 추가",
+          "price": "2000",
+          "option_category_name": "생과일쥬스",
+          "option_id": "68300ddf68cc4f72aad3b3d43cc53e6c",
+          "ticket_menu_id": "610b3937e09a433386a4e7fd572690a8",
+          "option_category_id": "ec05ed5b57704a878b9b98e42b5fb878"
+        }
+      ]
+    },
+    "product_order": {
+      "name": "product_order",
+      "rows": 11,
+      "columns": 27,
+      "column_list": [
+        "id",
+        "user_id",
+        "product_id",
+        "delivery_zip_code",
+        "delivery_address",
+        "delivery_status",
+        "quantity",
+        "amount",
+        "created_at",
+        "updated_at",
+        "canceled_at",
+        "cancel_comment",
+        "user_name",
+        "phone",
+        "order_status",
+        "delivered_at",
+        "refunded_at",
+        "point_amount",
+        "admin_id",
+        "user_coupon_id",
+        "number",
+        "point_type",
+        "giftcard_wallet_tx_id",
+        "giftcard_usage_amount",
+        "tracking_number",
+        "courier_id",
+        "courier_name"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0025c6365aa6476083f1c3079f85f7de",
+            "003fcbfb67864cec8a30beef4cbf604b",
+            "005515f252ca4bb2b8e9965b57f95253"
+          ],
+          "unique_count": 10
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "4004.0",
+            "3967.0",
+            "1338.0"
+          ],
+          "unique_count": 10
+        },
+        "product_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "f9c212d0ddfb4fbbacae28add8a5b670",
+            "1097bcbabb8a46b7aedc63fb4263789a",
+            "bf7dac6a952c4938951552d37379c86c"
+          ],
+          "unique_count": 10
+        },
+        "delivery_zip_code": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "7808.0",
+            "7763.0",
+            "15824.0"
+          ],
+          "unique_count": 10
+        },
+        "delivery_address": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "** ***구 ***로 ***",
+            "** ***구 ***로 ***",
+            "** ***구 ***로 ***"
+          ],
+          "unique_count": 2
+        },
+        "delivery_status": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "발주전",
+            "발송완료",
+            "발주전"
+          ],
+          "unique_count": 2
+        },
+        "quantity": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "1.0",
+            "1.0",
+            "1.0"
+          ],
+          "unique_count": 1
+        },
+        "amount": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "200.0"
+          ],
+          "unique_count": 6
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-10 13:12:55",
+            "2024-08-16 13:29:34",
+            "2024-05-13 18:06:09"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-10 13:17:57",
+            "2024-08-16 14:07:18",
+            "2024-05-13 18:06:09"
+          ],
+          "unique_count": 10
+        },
+        "canceled_at": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "2025-03-10 13:17:57"
+          ],
+          "unique_count": 1
+        },
+        "cancel_comment": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "user_name": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "phone": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "order_status": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "주문취소",
+            "발송완료",
+            "주문요청"
+          ],
+          "unique_count": 3
+        },
+        "delivered_at": {
+          "dtype": "object",
+          "non_null_count": 5,
+          "null_count": 6,
+          "sample_values": [
+            "2024-08-16 14:07:18",
+            "2025-03-10 15:04:42",
+            "2024-12-02 22:25:31"
+          ],
+          "unique_count": 5
+        },
+        "refunded_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "point_amount": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "21600.0",
+            "0.0"
+          ],
+          "unique_count": 4
+        },
+        "admin_id": {
+          "dtype": "float64",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "4405.0"
+          ],
+          "unique_count": 1
+        },
+        "user_coupon_id": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "45b53eb1a0f04fd3aa4b773b671a0f3e"
+          ],
+          "unique_count": 1
+        },
+        "number": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "Pf9c2025031022125552",
+            "P1092024081613293496",
+            "Pbf72024051318060980"
+          ],
+          "unique_count": 10
+        },
+        "point_type": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "NAVIYAM",
+            "BBUGI_DDOGI",
+            "NAVIYAM"
+          ],
+          "unique_count": 3
+        },
+        "giftcard_wallet_tx_id": {
+          "dtype": "object",
+          "non_null_count": 6,
+          "null_count": 5,
+          "sample_values": [
+            "8195b20250310131255vxcut",
+            "23c91202503070026420CZDi",
+            "479df20250309214045ffr7h"
+          ],
+          "unique_count": 6
+        },
+        "giftcard_usage_amount": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "22900.0",
+            "0.0",
+            "0.0"
+          ],
+          "unique_count": 7
+        },
+        "tracking_number": {
+          "dtype": "object",
+          "non_null_count": 4,
+          "null_count": 7,
+          "sample_values": [
+            "5**********4",
+            "5**********5",
+            "5**********5"
+          ],
+          "unique_count": 3
+        },
+        "courier_id": {
+          "dtype": "object",
+          "non_null_count": 3,
+          "null_count": 8,
+          "sample_values": [
+            "136e18c55c8d4444b586aad6ad5aa145",
+            "136e18c55c8d4444b586aad6ad5aa145",
+            "136e18c55c8d4444b586aad6ad5aa145"
+          ],
+          "unique_count": 1
+        },
+        "courier_name": {
+          "dtype": "object",
+          "non_null_count": 3,
+          "null_count": 8,
+          "sample_values": [
+            "CJ대한통운",
+            "CJ대한통운",
+            "CJ대한통운"
+          ],
+          "unique_count": 1
+        }
+      },
+      "user_related_columns": [
+        "user_id",
+        "user_name",
+        "user_coupon_id"
+      ],
+      "sample_data": [
+        {
+          "id": "0025c6365aa6476083f1c3079f85f7de",
+          "user_id": "4004.0",
+          "product_id": "f9c212d0ddfb4fbbacae28add8a5b670",
+          "delivery_zip_code": "7808.0",
+          "delivery_address": "** ***구 ***로 ***",
+          "delivery_status": "발주전",
+          "quantity": "1.0",
+          "amount": "0.0",
+          "created_at": "2025-03-10 13:12:55",
+          "updated_at": "2025-03-10 13:17:57",
+          "canceled_at": "2025-03-10 13:17:57",
+          "cancel_comment": null,
+          "user_name": "***",
+          "phone": "***",
+          "order_status": "주문취소",
+          "delivered_at": null,
+          "refunded_at": null,
+          "point_amount": "0.0",
+          "admin_id": null,
+          "user_coupon_id": null,
+          "number": "Pf9c2025031022125552",
+          "point_type": "NAVIYAM",
+          "giftcard_wallet_tx_id": "8195b20250310131255vxcut",
+          "giftcard_usage_amount": "22900.0",
+          "tracking_number": null,
+          "courier_id": null,
+          "courier_name": null
+        },
+        {
+          "id": "003fcbfb67864cec8a30beef4cbf604b",
+          "user_id": "3967.0",
+          "product_id": "1097bcbabb8a46b7aedc63fb4263789a",
+          "delivery_zip_code": "7763.0",
+          "delivery_address": "** ***구 ***로 ***",
+          "delivery_status": "발송완료",
+          "quantity": "1.0",
+          "amount": "0.0",
+          "created_at": "2024-08-16 13:29:34",
+          "updated_at": "2024-08-16 14:07:18",
+          "canceled_at": null,
+          "cancel_comment": null,
+          "user_name": "***",
+          "phone": "***",
+          "order_status": "발송완료",
+          "delivered_at": "2024-08-16 14:07:18",
+          "refunded_at": null,
+          "point_amount": "21600.0",
+          "admin_id": null,
+          "user_coupon_id": null,
+          "number": "P1092024081613293496",
+          "point_type": "BBUGI_DDOGI",
+          "giftcard_wallet_tx_id": null,
+          "giftcard_usage_amount": "0.0",
+          "tracking_number": null,
+          "courier_id": null,
+          "courier_name": null
+        },
+        {
+          "id": "005515f252ca4bb2b8e9965b57f95253",
+          "user_id": "1338.0",
+          "product_id": "bf7dac6a952c4938951552d37379c86c",
+          "delivery_zip_code": "15824.0",
+          "delivery_address": "** ***구 ***로 ***",
+          "delivery_status": "발주전",
+          "quantity": "1.0",
+          "amount": "200.0",
+          "created_at": "2024-05-13 18:06:09",
+          "updated_at": "2024-05-13 18:06:09",
+          "canceled_at": null,
+          "cancel_comment": null,
+          "user_name": "***",
+          "phone": "***",
+          "order_status": "주문요청",
+          "delivered_at": null,
+          "refunded_at": null,
+          "point_amount": "0.0",
+          "admin_id": null,
+          "user_coupon_id": null,
+          "number": "Pbf72024051318060980",
+          "point_type": "NAVIYAM",
+          "giftcard_wallet_tx_id": null,
+          "giftcard_usage_amount": "0.0",
+          "tracking_number": null,
+          "courier_id": null,
+          "courier_name": null
+        }
+      ]
+    },
+    "coop_coupon_ticket": {
+      "name": "coop_coupon_ticket",
+      "rows": 11,
+      "columns": 26,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "user_id",
+        "coop_coupon_id",
+        "coupon_no",
+        "coupon_no_brc_img",
+        "pin_no",
+        "expired_at",
+        "paid_at",
+        "used_at",
+        "canceled_at",
+        "cancel_reason",
+        "brand_name",
+        "brand_img",
+        "comp_code",
+        "comp_name",
+        "coupon_code",
+        "coupon_name",
+        "coupon_img",
+        "price",
+        "user_coupon_id",
+        "giftcard_wallet_tx_id",
+        "point_amt",
+        "coop_mkt_state"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "000c601bff6f4a30947b9d11f0a37745",
+            "0011d8e76cdc41ffb748d97d6df4d232",
+            "00179dfbacd646699205ea0ddc7deedf"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-18 15:47:34",
+            "2024-12-31 15:58:06",
+            "2025-02-23 17:12:53"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-22 19:25:00",
+            "2025-05-23 18:41:27",
+            "2025-02-23 17:12:54"
+          ],
+          "unique_count": 10
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2393.0",
+            "3160.0",
+            "8336.0"
+          ],
+          "unique_count": 10
+        },
+        "coop_coupon_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0ad05ab1d6f3487b8559ebe950545065",
+            "0ad05ab1d6f3487b8559ebe950545065",
+            "476deef532ef43359c212f5268bc79d4"
+          ],
+          "unique_count": 9
+        },
+        "coupon_no": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "coupon_no_brc_img": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://***/image.png",
+            "https://***/image.png",
+            "https://***/image.png"
+          ],
+          "unique_count": 2
+        },
+        "pin_no": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "expired_at": {
+          "dtype": "object",
+          "non_null_count": 9,
+          "null_count": 2,
+          "sample_values": [
+            "2026-04-19 23:59:59",
+            "2026-01-01 23:59:59",
+            "2026-02-24 23:59:59"
+          ],
+          "unique_count": 8
+        },
+        "paid_at": {
+          "dtype": "object",
+          "non_null_count": 9,
+          "null_count": 2,
+          "sample_values": [
+            "2025-04-18 15:47:34",
+            "2024-12-31 15:58:06",
+            "2025-02-23 17:12:53"
+          ],
+          "unique_count": 9
+        },
+        "used_at": {
+          "dtype": "object",
+          "non_null_count": 4,
+          "null_count": 7,
+          "sample_values": [
+            "2025-04-18 15:48:16",
+            "2025-05-08 17:31:34",
+            "2025-03-06 10:39:52"
+          ],
+          "unique_count": 4
+        },
+        "canceled_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "cancel_reason": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "brand_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "GS25",
+            "GS25",
+            "빽다방"
+          ],
+          "unique_count": 6
+        },
+        "brand_img": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/GS25.png",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/GS25.png",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%88%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%A1%E1%86%BC.png"
+          ],
+          "unique_count": 6
+        },
+        "comp_code": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "GS04",
+            "GS04",
+            "TB10"
+          ],
+          "unique_count": 6
+        },
+        "comp_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "GS25",
+            "GS25",
+            "빽다방"
+          ],
+          "unique_count": 6
+        },
+        "coupon_code": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "coupon_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "GS25 모바일 상품권 1만원권",
+            "GS25 모바일 상품권 1만원권",
+            "쿠키크런치빽스치노(소프트)"
+          ],
+          "unique_count": 9
+        },
+        "coupon_img": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00GS04XW00001/6d3db4f9299740758972e01159631e88/image.jpeg",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00GS04XW00001/6d3db4f9299740758972e01159631e88/image.jpeg",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00TB102B00001/f6b9566e268e4eed80fadc14fe8c43be/image.jpeg"
+          ],
+          "unique_count": 9
+        },
+        "price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "10000.0",
+            "10000.0",
+            "4300.0"
+          ],
+          "unique_count": 6
+        },
+        "user_coupon_id": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "giftcard_wallet_tx_id": {
+          "dtype": "object",
+          "non_null_count": 8,
+          "null_count": 3,
+          "sample_values": [
+            "1ab17202504181547337p4Gm",
+            "36ae220250223171253OvElB",
+            "394c320250413170427ebGdy"
+          ],
+          "unique_count": 8
+        },
+        "point_amt": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "10000.0",
+            "0.0"
+          ],
+          "unique_count": 3
+        },
+        "coop_mkt_state": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        }
+      },
+      "user_related_columns": [
+        "user_id",
+        "user_coupon_id"
+      ],
+      "sample_data": [
+        {
+          "id": "000c601bff6f4a30947b9d11f0a37745",
+          "created_at": "2025-04-18 15:47:34",
+          "updated_at": "2025-04-22 19:25:00",
+          "deleted_at": null,
+          "user_id": "2393.0",
+          "coop_coupon_id": "0ad05ab1d6f3487b8559ebe950545065",
+          "coupon_no": "***",
+          "coupon_no_brc_img": "https://***/image.png",
+          "pin_no": "***",
+          "expired_at": "2026-04-19 23:59:59",
+          "paid_at": "2025-04-18 15:47:34",
+          "used_at": "2025-04-18 15:48:16",
+          "canceled_at": null,
+          "cancel_reason": null,
+          "brand_name": "GS25",
+          "brand_img": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/GS25.png",
+          "comp_code": "GS04",
+          "comp_name": "GS25",
+          "coupon_code": "***",
+          "coupon_name": "GS25 모바일 상품권 1만원권",
+          "coupon_img": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00GS04XW00001/6d3db4f9299740758972e01159631e88/image.jpeg",
+          "price": "10000.0",
+          "user_coupon_id": null,
+          "giftcard_wallet_tx_id": "1ab17202504181547337p4Gm",
+          "point_amt": "0.0",
+          "coop_mkt_state": "***"
+        },
+        {
+          "id": "0011d8e76cdc41ffb748d97d6df4d232",
+          "created_at": "2024-12-31 15:58:06",
+          "updated_at": "2025-05-23 18:41:27",
+          "deleted_at": null,
+          "user_id": "3160.0",
+          "coop_coupon_id": "0ad05ab1d6f3487b8559ebe950545065",
+          "coupon_no": "***",
+          "coupon_no_brc_img": "https://***/image.png",
+          "pin_no": "***",
+          "expired_at": "2026-01-01 23:59:59",
+          "paid_at": "2024-12-31 15:58:06",
+          "used_at": "2025-05-08 17:31:34",
+          "canceled_at": null,
+          "cancel_reason": null,
+          "brand_name": "GS25",
+          "brand_img": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/GS25.png",
+          "comp_code": "GS04",
+          "comp_name": "GS25",
+          "coupon_code": "***",
+          "coupon_name": "GS25 모바일 상품권 1만원권",
+          "coupon_img": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00GS04XW00001/6d3db4f9299740758972e01159631e88/image.jpeg",
+          "price": "10000.0",
+          "user_coupon_id": null,
+          "giftcard_wallet_tx_id": null,
+          "point_amt": "10000.0",
+          "coop_mkt_state": "***"
+        },
+        {
+          "id": "00179dfbacd646699205ea0ddc7deedf",
+          "created_at": "2025-02-23 17:12:53",
+          "updated_at": "2025-02-23 17:12:54",
+          "deleted_at": null,
+          "user_id": "8336.0",
+          "coop_coupon_id": "476deef532ef43359c212f5268bc79d4",
+          "coupon_no": "***",
+          "coupon_no_brc_img": "https://***/image.png",
+          "pin_no": "***",
+          "expired_at": "2026-02-24 23:59:59",
+          "paid_at": "2025-02-23 17:12:53",
+          "used_at": null,
+          "canceled_at": null,
+          "cancel_reason": null,
+          "brand_name": "빽다방",
+          "brand_img": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/brands/%E1%84%88%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%A1%E1%86%BC.png",
+          "comp_code": "TB10",
+          "comp_name": "빽다방",
+          "coupon_code": "***",
+          "coupon_name": "쿠키크런치빽스치노(소프트)",
+          "coupon_img": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/coop/coupons/images/20241125023133/00TB102B00001/f6b9566e268e4eed80fadc14fe8c43be/image.jpeg",
+          "price": "4300.0",
+          "user_coupon_id": null,
+          "giftcard_wallet_tx_id": "36ae220250223171253OvElB",
+          "point_amt": "0.0",
+          "coop_mkt_state": "***"
+        }
+      ]
+    },
+    "review": {
+      "name": "review",
+      "rows": 11,
+      "columns": 9,
+      "column_list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "user_id",
+        "store_id",
+        "subject_id",
+        "comment",
+        "img_static",
+        "subject_type"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "1396",
+            "1397",
+            "1398"
+          ],
+          "unique_count": 11
+        },
+        "createdAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-03 17:37:43.201810",
+            "2025-04-04 11:08:08.925285",
+            "2025-04-04 14:32:21.878481"
+          ],
+          "unique_count": 10
+        },
+        "updatedAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-03 17:37:43.201810",
+            "2025-04-04 11:08:08.925285",
+            "2025-04-04 14:32:21.878481"
+          ],
+          "unique_count": 10
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "3743.0",
+            "8078.0",
+            "275.0"
+          ],
+          "unique_count": 10
+        },
+        "store_id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "4047",
+            "3354",
+            "83e54fcbd8e445b687a027c2a110b262"
+          ],
+          "unique_count": 10
+        },
+        "subject_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "3e4de54d88ad4fa4ae79dc286249089e",
+            "5a1fc58b4c924ea893cfdc21b78c6f7a",
+            "7231a9ba8df346b59267b8e74bca7ec0"
+          ],
+          "unique_count": 10
+        },
+        "comment": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "육회비빔밥과 육회 주문했는데 야채도 신선하고 육회도 너무 맛있었어요 배달전문 매장이다보니 바로 먹을순 없었던게 조금 아쉬웠지만 잘먹었습니다",
+            "맛있게 잘먹었습니다",
+            "넘 맛있게 먹네여 특히 볶음김치랑 계란말이 너무 맛있다고 ㅋㅋ 후리카케도 그렇고 도시락 구성이 정말 아이들이 좋아하고 잘 먹을 구성으로 해주신게 느껴지네요~~ 기프트카드로 구매하니깐 더 좋았어요 전자레인지에 간단하게 데워주면 되니까 아이 혼자 있을때도 먹기 편해하고, 저희집이 맞벌이라~~ 편하네요 ^^ 유통기한도 1년으로 넉넉하고~ 6일치라 좋아요"
+          ],
+          "unique_count": 10
+        },
+        "img_static": {
+          "dtype": "object",
+          "non_null_count": 4,
+          "null_count": 7,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/reviews/8efd4db90bcb41b88f476ccb06735988/image.jpg",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/reviews/bd3b9892f0b343f9b0fc22ae1affef86/image.jpg",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/reviews/adc22161c9bc40c4bbece0b239aed4c7/image.jpg"
+          ],
+          "unique_count": 4
+        },
+        "subject_type": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "TICKET",
+            "TICKET",
+            "PRODUCT_ORDER"
+          ],
+          "unique_count": 2
+        }
+      },
+      "user_related_columns": [
+        "user_id"
+      ],
+      "sample_data": [
+        {
+          "id": "1396",
+          "createdAt": "2025-04-03 17:37:43.201810",
+          "updatedAt": "2025-04-03 17:37:43.201810",
+          "user_id": "3743.0",
+          "store_id": "4047",
+          "subject_id": "3e4de54d88ad4fa4ae79dc286249089e",
+          "comment": "육회비빔밥과 육회 주문했는데 야채도 신선하고 육회도 너무 맛있었어요 배달전문 매장이다보니 바로 먹을순 없었던게 조금 아쉬웠지만 잘먹었습니다",
+          "img_static": null,
+          "subject_type": "TICKET"
+        },
+        {
+          "id": "1397",
+          "createdAt": "2025-04-04 11:08:08.925285",
+          "updatedAt": "2025-04-04 11:08:08.925285",
+          "user_id": "8078.0",
+          "store_id": "3354",
+          "subject_id": "5a1fc58b4c924ea893cfdc21b78c6f7a",
+          "comment": "맛있게 잘먹었습니다",
+          "img_static": null,
+          "subject_type": "TICKET"
+        },
+        {
+          "id": "1398",
+          "createdAt": "2025-04-04 14:32:21.878481",
+          "updatedAt": "2025-04-04 14:32:21.878481",
+          "user_id": "275.0",
+          "store_id": "83e54fcbd8e445b687a027c2a110b262",
+          "subject_id": "7231a9ba8df346b59267b8e74bca7ec0",
+          "comment": "넘 맛있게 먹네여 특히 볶음김치랑 계란말이 너무 맛있다고 ㅋㅋ 후리카케도 그렇고 도시락 구성이 정말 아이들이 좋아하고 잘 먹을 구성으로 해주신게 느껴지네요~~ 기프트카드로 구매하니깐 더 좋았어요 전자레인지에 간단하게 데워주면 되니까 아이 혼자 있을때도 먹기 편해하고, 저희집이 맞벌이라~~ 편하네요 ^^ 유통기한도 1년으로 넉넉하고~ 6일치라 좋아요",
+          "img_static": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/reviews/8efd4db90bcb41b88f476ccb06735988/image.jpg",
+          "subject_type": "PRODUCT_ORDER"
+        }
+      ]
+    },
+    "user": {
+      "name": "user",
+      "rows": 11,
+      "columns": 25,
+      "column_list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "loginId",
+        "email",
+        "password",
+        "name",
+        "nickname",
+        "birthday",
+        "imageUrl",
+        "phone",
+        "role",
+        "isApproved",
+        "currentAddress",
+        "snsType",
+        "isBanned",
+        "useYN",
+        "marketingOn",
+        "reportCnt",
+        "reportDate",
+        "stopDuration",
+        "deviceToken",
+        "approvementStatus",
+        "deleted_at",
+        "rrn_id"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "863.0",
+            "864.0",
+            "865.0"
+          ],
+          "unique_count": 10
+        },
+        "createdAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-01-01 01:31:06.184753",
+            "2024-01-01 11:06:07.368920",
+            "2024-01-01 12:02:09.121195"
+          ],
+          "unique_count": 10
+        },
+        "updatedAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-01-06 00:03:43.493613",
+            "2024-01-01 11:06:07.368920",
+            "2024-01-01 12:02:09.000000"
+          ],
+          "unique_count": 10
+        },
+        "loginId": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "email": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "password": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "nickname": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "birthday": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2007-01-01 00:00:00",
+            "1978-02-02 00:00:00",
+            "2005-06-19 00:00:00"
+          ],
+          "unique_count": 10
+        },
+        "imageUrl": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "phone": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "role": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "[user]",
+            "[user]",
+            "[user]"
+          ],
+          "unique_count": 2
+        },
+        "isApproved": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "1",
+            "0",
+            "0"
+          ],
+          "unique_count": 3
+        },
+        "currentAddress": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X"
+          ],
+          "unique_count": 1
+        },
+        "snsType": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "kakao",
+            "kakao",
+            "none"
+          ],
+          "unique_count": 2
+        },
+        "isBanned": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "useYN": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "Y",
+            "Y",
+            "Y"
+          ],
+          "unique_count": 3
+        },
+        "marketingOn": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "1.0",
+            "0.0",
+            "0.0"
+          ],
+          "unique_count": 2
+        },
+        "reportCnt": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_count": 2
+        },
+        "reportDate": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X"
+          ],
+          "unique_count": 1
+        },
+        "stopDuration": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X"
+          ],
+          "unique_count": 1
+        },
+        "deviceToken": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "사용X"
+          ],
+          "unique_count": 1
+        },
+        "approvementStatus": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "미승인",
+            "미승인",
+            "미승인"
+          ],
+          "unique_count": 2
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "rrn_id": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "863.0",
+          "createdAt": "2024-01-01 01:31:06.184753",
+          "updatedAt": "2025-01-06 00:03:43.493613",
+          "loginId": "***",
+          "email": "***",
+          "password": "***",
+          "name": "***",
+          "nickname": "***",
+          "birthday": "2007-01-01 00:00:00",
+          "imageUrl": "***",
+          "phone": "***",
+          "role": "[user]",
+          "isApproved": "1",
+          "currentAddress": null,
+          "snsType": "kakao",
+          "isBanned": "0",
+          "useYN": "Y",
+          "marketingOn": "1.0",
+          "reportCnt": "0",
+          "reportDate": null,
+          "stopDuration": null,
+          "deviceToken": null,
+          "approvementStatus": "미승인",
+          "deleted_at": null,
+          "rrn_id": null
+        },
+        {
+          "id": "864.0",
+          "createdAt": "2024-01-01 11:06:07.368920",
+          "updatedAt": "2024-01-01 11:06:07.368920",
+          "loginId": "***",
+          "email": "***",
+          "password": "***",
+          "name": "***",
+          "nickname": "***",
+          "birthday": "1978-02-02 00:00:00",
+          "imageUrl": "***",
+          "phone": "***",
+          "role": "[user]",
+          "isApproved": "0",
+          "currentAddress": null,
+          "snsType": "kakao",
+          "isBanned": "0",
+          "useYN": "Y",
+          "marketingOn": "0.0",
+          "reportCnt": "0",
+          "reportDate": null,
+          "stopDuration": null,
+          "deviceToken": null,
+          "approvementStatus": "미승인",
+          "deleted_at": null,
+          "rrn_id": null
+        },
+        {
+          "id": "865.0",
+          "createdAt": "2024-01-01 12:02:09.121195",
+          "updatedAt": "2024-01-01 12:02:09.000000",
+          "loginId": "***",
+          "email": "***",
+          "password": "***",
+          "name": "***",
+          "nickname": "***",
+          "birthday": "2005-06-19 00:00:00",
+          "imageUrl": "***",
+          "phone": "***",
+          "role": "[user]",
+          "isApproved": "0",
+          "currentAddress": null,
+          "snsType": "none",
+          "isBanned": "0",
+          "useYN": "Y",
+          "marketingOn": "0.0",
+          "reportCnt": "0",
+          "reportDate": null,
+          "stopDuration": null,
+          "deviceToken": null,
+          "approvementStatus": "미승인",
+          "deleted_at": null,
+          "rrn_id": null
+        }
+      ]
+    },
+    "user_location": {
+      "name": "user_location",
+      "rows": 11,
+      "columns": 4,
+      "column_list": [
+        "id",
+        "user_id",
+        "state",
+        "city"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "7",
+            "8",
+            "9"
+          ],
+          "unique_count": 11
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "355.0",
+            "358.0",
+            "387.0"
+          ],
+          "unique_count": 9
+        },
+        "state": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "대전광역시",
+            "세종특별자치시",
+            "경상남도"
+          ],
+          "unique_count": 6
+        },
+        "city": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "서구",
+            "세종특별자치시",
+            "창원시"
+          ],
+          "unique_count": 9
+        }
+      },
+      "user_related_columns": [
+        "user_id"
+      ],
+      "sample_data": [
+        {
+          "id": "7",
+          "user_id": "355.0",
+          "state": "대전광역시",
+          "city": "서구"
+        },
+        {
+          "id": "8",
+          "user_id": "358.0",
+          "state": "세종특별자치시",
+          "city": "세종특별자치시"
+        },
+        {
+          "id": "9",
+          "user_id": "387.0",
+          "state": "경상남도",
+          "city": "창원시"
+        }
+      ]
+    },
+    "userfavorite": {
+      "name": "userfavorite",
+      "rows": 11,
+      "columns": 5,
+      "column_list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "userId",
+        "shopId"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "7",
+            "12",
+            "14"
+          ],
+          "unique_count": 11
+        },
+        "createdAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2023-07-21 22:23:48.672376",
+            "2023-07-23 23:35:43.460194",
+            "2023-08-01 08:16:12.948664"
+          ],
+          "unique_count": 10
+        },
+        "updatedAt": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2023-07-21 22:23:48.672376",
+            "2023-07-23 23:35:43.460194",
+            "2023-08-01 08:16:12.948664"
+          ],
+          "unique_count": 10
+        },
+        "userId": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "33.0",
+            "33.0",
+            "33.0"
+          ],
+          "unique_count": 2
+        },
+        "shopId": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "8.0",
+            "20.0",
+            "31.0"
+          ],
+          "unique_count": 9
+        }
+      },
+      "user_related_columns": [
+        "userId"
+      ],
+      "sample_data": [
+        {
+          "id": "7",
+          "createdAt": "2023-07-21 22:23:48.672376",
+          "updatedAt": "2023-07-21 22:23:48.672376",
+          "userId": "33.0",
+          "shopId": "8.0"
+        },
+        {
+          "id": "12",
+          "createdAt": "2023-07-23 23:35:43.460194",
+          "updatedAt": "2023-07-23 23:35:43.460194",
+          "userId": "33.0",
+          "shopId": "20.0"
+        },
+        {
+          "id": "14",
+          "createdAt": "2023-08-01 08:16:12.948664",
+          "updatedAt": "2023-08-01 08:16:12.948664",
+          "userId": "33.0",
+          "shopId": "31.0"
+        }
+      ]
+    },
+    "foodcard": {
+      "name": "foodcard",
+      "rows": 11,
+      "columns": 21,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "user_id",
+        "card_number",
+        "owner_name",
+        "owner_birthday",
+        "company",
+        "region_do",
+        "region_si",
+        "region_dong",
+        "verified_at",
+        "expired_at",
+        "front_img_url",
+        "back_img_url",
+        "rejected_at",
+        "reject_reason",
+        "status",
+        "remark",
+        "card_hash"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "002dfedde6a2415988f92fbc89e1f4af",
+            "0037e1dc14ad40a6a5f046c1b77f5a84",
+            "004a7cdb084d45dc91c42d3ef7f575db"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-22 15:09:12",
+            "2025-02-23 13:25:53",
+            "2025-02-20 20:24:32"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-22 15:48:20",
+            "2025-02-23 13:32:15",
+            "2025-02-21 09:37:58"
+          ],
+          "unique_count": 10
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "8628.0",
+            "993.0",
+            "8463.0"
+          ],
+          "unique_count": 10
+        },
+        "card_number": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "owner_name": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "owner_birthday": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2013-10-09",
+            "2016-03-13",
+            "2010-12-07"
+          ],
+          "unique_count": 10
+        },
+        "company": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "NH농협카드",
+            "신한카드",
+            "NH농협카드"
+          ],
+          "unique_count": 4
+        },
+        "region_do": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "대전광역시",
+            "인천광역시",
+            "경상북도"
+          ],
+          "unique_count": 7
+        },
+        "region_si": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "중구",
+            "계양구",
+            "청도군"
+          ],
+          "unique_count": 10
+        },
+        "region_dong": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "태평동",
+            "서운동",
+            "화양읍"
+          ],
+          "unique_count": 10
+        },
+        "verified_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-22 15:48:20",
+            "2025-02-23 13:32:15",
+            "2025-02-21 09:37:58"
+          ],
+          "unique_count": 10
+        },
+        "expired_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "front_img_url": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "back_img_url": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        },
+        "rejected_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "reject_reason": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "status": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "승인완료",
+            "승인완료",
+            "승인완료"
+          ],
+          "unique_count": 1
+        },
+        "remark": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "card_hash": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "***",
+            "***",
+            "***"
+          ],
+          "unique_count": 2
+        }
+      },
+      "user_related_columns": [
+        "user_id"
+      ],
+      "sample_data": [
+        {
+          "id": "002dfedde6a2415988f92fbc89e1f4af",
+          "created_at": "2025-02-22 15:09:12",
+          "updated_at": "2025-02-22 15:48:20",
+          "deleted_at": null,
+          "user_id": "8628.0",
+          "card_number": "***",
+          "owner_name": "***",
+          "owner_birthday": "2013-10-09",
+          "company": "NH농협카드",
+          "region_do": "대전광역시",
+          "region_si": "중구",
+          "region_dong": "태평동",
+          "verified_at": "2025-02-22 15:48:20",
+          "expired_at": null,
+          "front_img_url": "***",
+          "back_img_url": "***",
+          "rejected_at": null,
+          "reject_reason": null,
+          "status": "승인완료",
+          "remark": null,
+          "card_hash": "***"
+        },
+        {
+          "id": "0037e1dc14ad40a6a5f046c1b77f5a84",
+          "created_at": "2025-02-23 13:25:53",
+          "updated_at": "2025-02-23 13:32:15",
+          "deleted_at": null,
+          "user_id": "993.0",
+          "card_number": "***",
+          "owner_name": "***",
+          "owner_birthday": "2016-03-13",
+          "company": "신한카드",
+          "region_do": "인천광역시",
+          "region_si": "계양구",
+          "region_dong": "서운동",
+          "verified_at": "2025-02-23 13:32:15",
+          "expired_at": null,
+          "front_img_url": "***",
+          "back_img_url": "***",
+          "rejected_at": null,
+          "reject_reason": null,
+          "status": "승인완료",
+          "remark": null,
+          "card_hash": "***"
+        },
+        {
+          "id": "004a7cdb084d45dc91c42d3ef7f575db",
+          "created_at": "2025-02-20 20:24:32",
+          "updated_at": "2025-02-21 09:37:58",
+          "deleted_at": null,
+          "user_id": "8463.0",
+          "card_number": "***",
+          "owner_name": "***",
+          "owner_birthday": "2010-12-07",
+          "company": "NH농협카드",
+          "region_do": "경상북도",
+          "region_si": "청도군",
+          "region_dong": "화양읍",
+          "verified_at": "2025-02-21 09:37:58",
+          "expired_at": null,
+          "front_img_url": "***",
+          "back_img_url": "***",
+          "rejected_at": null,
+          "reject_reason": null,
+          "status": "승인완료",
+          "remark": null,
+          "card_hash": "***"
+        }
+      ]
+    },
+    "coupon": {
+      "name": "coupon",
+      "rows": 10,
+      "columns": 30,
+      "column_list": [
+        "id",
+        "name",
+        "description",
+        "type",
+        "amount",
+        "quantity",
+        "min_amount_available",
+        "max_discount_value",
+        "expiry_datetime",
+        "published_at",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "payer_type",
+        "remarks",
+        "usage_type",
+        "detail_img",
+        "publish_type",
+        "target",
+        "paused_at",
+        "finished_at",
+        "sponsor_id",
+        "usage_limit_hours",
+        "usage_limit_minutes",
+        "is_youthmungan_event",
+        "first_published_at",
+        "init_quantity",
+        "made_by",
+        "publisher_id",
+        "event_type"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "00614ee9c4bc4552b0b6d5fd722153f2",
+            "007303ac6b9b45c49aad4a3c25fe3d13",
+            "01159760e4744f2b92f9060a491ef1e9"
+          ],
+          "unique_count": 10
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 0,
+          "sample_values": [
+            "익명의 이웃 님의 선물",
+            "할인쿠폰",
+            "[세아그룹]구민희17506 님의 선물"
+          ],
+          "unique_count": 10
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [],
+      "error": "'cp949' codec can't encode character '\\u2763' in position 68: illegal multibyte sequence"
+    },
+    "coupon_menu_map": {
+      "name": "coupon_menu_map",
+      "rows": 11,
+      "columns": 11,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "coupon_id",
+        "menu_id",
+        "menu_name",
+        "menu_img",
+        "shop_id",
+        "shop_name",
+        "menu_price"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "00a1a984cf3240acbb72a60c3506a5b9",
+            "0124d6caa02c4433a09323c773af5be7",
+            "01f6feb7499146cd8e43e6c420a1f016"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "45411.582337962966",
+            "45730.56528935185",
+            "45547.84490740741"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "45411.582337962966",
+            "45730.56528935185",
+            "45547.84490740741"
+          ],
+          "unique_count": 10
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "coupon_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "c81934d0c5fc438a9cac73dab30b976d",
+            "3b5c883ee72e49ff917beab95f3fc0d9",
+            "27d26f80f3314343906830a30e9f4ce3"
+          ],
+          "unique_count": 10
+        },
+        "menu_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "230819.0",
+            "22332.0",
+            "247582.0"
+          ],
+          "unique_count": 10
+        },
+        "menu_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "라면사리",
+            "김치찌개",
+            "[9월] 모듬햄볶음도시락"
+          ],
+          "unique_count": 9
+        },
+        "menu_img": {
+          "dtype": "object",
+          "non_null_count": 5,
+          "null_count": 6,
+          "sample_values": [
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/230789/20240423_044907_230789.jpeg",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/22332/20231205_092421_22332.jpg",
+            "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/229761/20240404_054003_229761.png"
+          ],
+          "unique_count": 5
+        },
+        "shop_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "3714.0",
+            "3355.0",
+            "4683.0"
+          ],
+          "unique_count": 10
+        },
+        "shop_name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "유가네 위례신도시점",
+            "청년밥상문간 정릉점",
+            "본도시락 강서구청사거리점"
+          ],
+          "unique_count": 10
+        },
+        "menu_price": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2000.0",
+            "3000.0",
+            "8000.0"
+          ],
+          "unique_count": 7
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "00a1a984cf3240acbb72a60c3506a5b9",
+          "created_at": "45411.582337962966",
+          "updated_at": "45411.582337962966",
+          "deleted_at": null,
+          "coupon_id": "c81934d0c5fc438a9cac73dab30b976d",
+          "menu_id": "230819.0",
+          "menu_name": "라면사리",
+          "menu_img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/230789/20240423_044907_230789.jpeg",
+          "shop_id": "3714.0",
+          "shop_name": "유가네 위례신도시점",
+          "menu_price": "2000.0"
+        },
+        {
+          "id": "0124d6caa02c4433a09323c773af5be7",
+          "created_at": "45730.56528935185",
+          "updated_at": "45730.56528935185",
+          "deleted_at": null,
+          "coupon_id": "3b5c883ee72e49ff917beab95f3fc0d9",
+          "menu_id": "22332.0",
+          "menu_name": "김치찌개",
+          "menu_img": "https://naviblobstorages.blob.core.windows.net/navi-blob/images/reservation/image/22332/20231205_092421_22332.jpg",
+          "shop_id": "3355.0",
+          "shop_name": "청년밥상문간 정릉점",
+          "menu_price": "3000.0"
+        },
+        {
+          "id": "01f6feb7499146cd8e43e6c420a1f016",
+          "created_at": "45547.84490740741",
+          "updated_at": "45547.84490740741",
+          "deleted_at": null,
+          "coupon_id": "27d26f80f3314343906830a30e9f4ce3",
+          "menu_id": "247582.0",
+          "menu_name": "[9월] 모듬햄볶음도시락",
+          "menu_img": null,
+          "shop_id": "4683.0",
+          "shop_name": "본도시락 강서구청사거리점",
+          "menu_price": "8000.0"
+        }
+      ]
+    },
+    "coupon_shop_map": {
+      "name": "coupon_shop_map",
+      "rows": 11,
+      "columns": 5,
+      "column_list": [
+        "id",
+        "shop_id",
+        "coupon_id",
+        "created_at",
+        "updated_at"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "01307f94260941f2a80b6d298bf7d8ca",
+            "01564675864a478091f9281f36548dc0",
+            "02593bca26b746568420f94dae90c20d"
+          ],
+          "unique_count": 11
+        },
+        "shop_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "4984.0",
+            "4895.0",
+            "3713.0"
+          ],
+          "unique_count": 10
+        },
+        "coupon_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "3a890f14c16a42dca80e810e3af60f39",
+            "5ab229291a60418e87a178b40bfb15f4",
+            "9c987c3c6a2a4cc9b38c81b90a948dd4"
+          ],
+          "unique_count": 8
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-07-04 21:36:32",
+            "2025-05-29 18:05:44",
+            "2024-06-24 11:11:35"
+          ],
+          "unique_count": 8
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-07-04 21:36:32",
+            "2025-05-29 18:05:44",
+            "2024-06-24 11:11:35"
+          ],
+          "unique_count": 8
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "01307f94260941f2a80b6d298bf7d8ca",
+          "shop_id": "4984.0",
+          "coupon_id": "3a890f14c16a42dca80e810e3af60f39",
+          "created_at": "2025-07-04 21:36:32",
+          "updated_at": "2025-07-04 21:36:32"
+        },
+        {
+          "id": "01564675864a478091f9281f36548dc0",
+          "shop_id": "4895.0",
+          "coupon_id": "5ab229291a60418e87a178b40bfb15f4",
+          "created_at": "2025-05-29 18:05:44",
+          "updated_at": "2025-05-29 18:05:44"
+        },
+        {
+          "id": "02593bca26b746568420f94dae90c20d",
+          "shop_id": "3713.0",
+          "coupon_id": "9c987c3c6a2a4cc9b38c81b90a948dd4",
+          "created_at": "2024-06-24 11:11:35",
+          "updated_at": "2024-06-24 11:11:35"
+        }
+      ]
+    },
+    "coupon_product_map": {
+      "name": "coupon_product_map",
+      "rows": 11,
+      "columns": 5,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "product_id",
+        "coupon_id"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "017fc73ce5044eb4b88c5779a1e063ba",
+            "03d787fb3a9d41c3b80b1c7f27d99f2e",
+            "04ec1b1856f54412ac21b6e744c6f93a"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-03-22 18:20:20",
+            "2024-03-22 18:18:16",
+            "2024-03-14 09:55:44"
+          ],
+          "unique_count": 9
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2024-03-22 18:20:20",
+            "2024-03-22 18:18:16",
+            "2024-03-14 09:55:44"
+          ],
+          "unique_count": 9
+        },
+        "product_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "7ee5a60dfe52405e824a9dbc95c04f80",
+            "f566424b6f64434e8d582e8fbe8dd709",
+            "f566424b6f64434e8d582e8fbe8dd709"
+          ],
+          "unique_count": 7
+        },
+        "coupon_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "54c194f84d2140b5876cd3a5284bc15f",
+            "b7260015bdef44fab617d10788f63f45",
+            "b7260015bdef44fab617d10788f63f44"
+          ],
+          "unique_count": 9
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "017fc73ce5044eb4b88c5779a1e063ba",
+          "created_at": "2024-03-22 18:20:20",
+          "updated_at": "2024-03-22 18:20:20",
+          "product_id": "7ee5a60dfe52405e824a9dbc95c04f80",
+          "coupon_id": "54c194f84d2140b5876cd3a5284bc15f"
+        },
+        {
+          "id": "03d787fb3a9d41c3b80b1c7f27d99f2e",
+          "created_at": "2024-03-22 18:18:16",
+          "updated_at": "2024-03-22 18:18:16",
+          "product_id": "f566424b6f64434e8d582e8fbe8dd709",
+          "coupon_id": "b7260015bdef44fab617d10788f63f45"
+        },
+        {
+          "id": "04ec1b1856f54412ac21b6e744c6f93a",
+          "created_at": "2024-03-14 09:55:44",
+          "updated_at": "2024-03-14 09:55:44",
+          "product_id": "f566424b6f64434e8d582e8fbe8dd709",
+          "coupon_id": "b7260015bdef44fab617d10788f63f44"
+        }
+      ]
+    },
+    "coupon_user_map": {
+      "name": "coupon_user_map",
+      "rows": 12,
+      "columns": 8,
+      "column_list": [
+        "id",
+        "user_id",
+        "coupon_id",
+        "is_used",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "limit_datetime"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 1,
+          "sample_values": [
+            "00021b0813384ebe82377e39f5682a5b",
+            "0003b4154d8440b2b91c5cf38e4e160b",
+            "000ce0917ae24d778e4533199f666b31"
+          ],
+          "unique_count": 11
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 2,
+          "sample_values": [
+            "3250.0",
+            "1478.0",
+            "8078.0"
+          ],
+          "unique_count": 10
+        },
+        "coupon_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 2,
+          "sample_values": [
+            "f67dca23cbce4ed993888c929683e8c8",
+            "60dcb4224c7646d9af05203784e1a215",
+            "75d67bbf83c94ba88f1bea85b0b6df07"
+          ],
+          "unique_count": 9
+        },
+        "is_used": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 2,
+          "sample_values": [
+            "1.0",
+            "1.0",
+            "1.0"
+          ],
+          "unique_count": 2
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 2,
+          "sample_values": [
+            "2024-08-01 12:30:09",
+            "2025-02-19 17:45:53",
+            "2025-04-25 11:06:05"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 2,
+          "sample_values": [
+            "2024-08-12 21:22:11",
+            "2025-02-19 17:54:38",
+            "2025-04-25 12:46:46"
+          ],
+          "unique_count": 10
+        },
+        "deleted_at": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 11,
+          "sample_values": [
+            "2024-07-27 09:19:00"
+          ],
+          "unique_count": 1
+        },
+        "limit_datetime": {
+          "dtype": "object",
+          "non_null_count": 6,
+          "null_count": 6,
+          "sample_values": [
+            "2025-02-19 20:45:53",
+            "2025-04-25 14:06:05",
+            "2024-05-08 14:35:54"
+          ],
+          "unique_count": 6
+        }
+      },
+      "user_related_columns": [
+        "user_id"
+      ],
+      "sample_data": [
+        {
+          "id": "00021b0813384ebe82377e39f5682a5b",
+          "user_id": "3250.0",
+          "coupon_id": "f67dca23cbce4ed993888c929683e8c8",
+          "is_used": "1.0",
+          "created_at": "2024-08-01 12:30:09",
+          "updated_at": "2024-08-12 21:22:11",
+          "deleted_at": null,
+          "limit_datetime": null
+        },
+        {
+          "id": "0003b4154d8440b2b91c5cf38e4e160b",
+          "user_id": "1478.0",
+          "coupon_id": "60dcb4224c7646d9af05203784e1a215",
+          "is_used": "1.0",
+          "created_at": "2025-02-19 17:45:53",
+          "updated_at": "2025-02-19 17:54:38",
+          "deleted_at": null,
+          "limit_datetime": "2025-02-19 20:45:53"
+        },
+        {
+          "id": "000ce0917ae24d778e4533199f666b31",
+          "user_id": "8078.0",
+          "coupon_id": "75d67bbf83c94ba88f1bea85b0b6df07",
+          "is_used": "1.0",
+          "created_at": "2025-04-25 11:06:05",
+          "updated_at": "2025-04-25 12:46:46",
+          "deleted_at": null,
+          "limit_datetime": "2025-04-25 14:06:05"
+        }
+      ]
+    },
+    "giftcard": {
+      "name": "giftcard",
+      "rows": 11,
+      "columns": 19,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "name",
+        "image_url",
+        "published_at",
+        "expired_at",
+        "paused_at",
+        "pub_amt",
+        "pub_quantity",
+        "usage_list",
+        "targets",
+        "min_available_amt",
+        "max_applicable_val",
+        "pub_limit_id",
+        "description",
+        "policy",
+        "admin_remark"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "07e828b19d124d19b21fc138b3b7b075",
+            "1df9c280ad4b11efad310022486cd6f5",
+            "7ec9e1fb235246879cbc4c09b8e86da1"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-19 19:00:34",
+            "2024-11-28 14:39:28",
+            "2024-12-19 13:12:58"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-12 14:22:05",
+            "2025-02-20 19:09:22",
+            "2025-01-20 11:58:26"
+          ],
+          "unique_count": 9
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "name": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "언제나응원할게",
+            "테스트카드",
+            "나비얌 GOODBYE 2024"
+          ],
+          "unique_count": 9
+        },
+        "image_url": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/faf65a1a665e44bcb4332d1623b40487/image.png",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/dev/test/b68c3b45bf264b958e5795b76e273952/image.png",
+            "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/537e93f69abe4086a90afbdbf43dee44/image.png"
+          ],
+          "unique_count": 9
+        },
+        "published_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-20 13:00:00",
+            "2024-11-18 13:00:00",
+            "2024-12-19 13:30:00"
+          ],
+          "unique_count": 8
+        },
+        "expired_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-06 00:00:00",
+            "2025-02-20 23:59:59",
+            "2025-07-31 12:00:00"
+          ],
+          "unique_count": 9
+        },
+        "paused_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "pub_amt": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "50000.0",
+            "20000.0",
+            "100000.0"
+          ],
+          "unique_count": 8
+        },
+        "pub_quantity": {
+          "dtype": "float64",
+          "non_null_count": 7,
+          "null_count": 4,
+          "sample_values": [
+            "719.0",
+            "10.0",
+            "15.0"
+          ],
+          "unique_count": 7
+        },
+        "usage_list": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "[STORE,COMMERCE,GIFTICON]",
+            "[STORE,COMMERCE,GIFTICON]",
+            "[STORE,COMMERCE,GIFTICON]"
+          ],
+          "unique_count": 1
+        },
+        "targets": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "{\"CERTIFIED\":[\"UNDER_6\",\"ELEMENTARY\",\"MIDDLE_HIGH\",\"YOUTH\",\"OVER_19\"]}",
+            "{\"CERTIFIED\":[\"OVER_19\"],\"NON_CERTIFIED\":[]}",
+            "{\"CERTIFIED\":[\"UNDER_6\",\"ELEMENTARY\",\"MIDDLE_HIGH\",\"YOUTH\",\"OVER_19\"],\"NON_CERTIFIED\":[\"UNDER_6\",\"ELEMENTARY\",\"MIDDLE_HIGH\",\"YOUTH\",\"OVER_19\"]}"
+          ],
+          "unique_count": 4
+        },
+        "min_available_amt": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "max_applicable_val": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "pub_limit_id": {
+          "dtype": "float64",
+          "non_null_count": 4,
+          "null_count": 7,
+          "sample_values": [
+            "9.0",
+            "5.0",
+            "5.0"
+          ],
+          "unique_count": 3
+        },
+        "description": {
+          "dtype": "object",
+          "non_null_count": 5,
+          "null_count": 6,
+          "sample_values": [
+            "나비 팀 멤버들에게 이벤트로 제공되는 10만원 금액권입니다.",
+            "캠페인 정성 참여자에게 지급되는 추가 기프트카드입니다.",
+            "나비 팀 멤버들에게 이벤트로 제공되는 3만원 금액권입니다."
+          ],
+          "unique_count": 5
+        },
+        "policy": {
+          "dtype": "object",
+          "non_null_count": 7,
+          "null_count": 4,
+          "sample_values": [
+            "본 기프트카드는 로그인 후 사용할 수 있습니다.\n본 기프트카드는 나비얌에서만 사용 가능합니다.\n홈화면 > MY나비 > [기프트카드] > [사용처]의 바로가기 버튼을 클릭해 사용처로 이동 가능합니다.",
+            "본 기프트카드는 로그인 후 사용할 수 있습니다.\n본 기프트카드는 나비얌에서만 사용 가능합니다.\n홈화면 > MY나비 > [기프트카드] > [사용처]의 바로가기 버튼을 클릭해 사용처로 이동 가능합니다.",
+            "본 기프트카드는 로그인 후 사용할 수 있습니다.\n본 기프트카드는 나비얌에서만 사용 가능합니다.\n홈화면 > MY나비 > [기프트카드] > [사용처]의 바로가기 버튼을 클릭해 사용처로 이동 가능합니다."
+          ],
+          "unique_count": 2
+        },
+        "admin_remark": {
+          "dtype": "object",
+          "non_null_count": 2,
+          "null_count": 9,
+          "sample_values": [
+            "나비 팀 멤버들에게 이벤트로 제공되는 10만원 금액권입니다.",
+            "나비 팀 멤버들에게 이벤트로 제공되는 3만원 금액권입니다."
+          ],
+          "unique_count": 2
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "07e828b19d124d19b21fc138b3b7b075",
+          "created_at": "2025-02-19 19:00:34",
+          "updated_at": "2025-03-12 14:22:05",
+          "deleted_at": null,
+          "name": "언제나응원할게",
+          "image_url": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/faf65a1a665e44bcb4332d1623b40487/image.png",
+          "published_at": "2025-02-20 13:00:00",
+          "expired_at": "2025-04-06 00:00:00",
+          "paused_at": null,
+          "pub_amt": "50000.0",
+          "pub_quantity": "719.0",
+          "usage_list": "[STORE,COMMERCE,GIFTICON]",
+          "targets": "{\"CERTIFIED\":[\"UNDER_6\",\"ELEMENTARY\",\"MIDDLE_HIGH\",\"YOUTH\",\"OVER_19\"]}",
+          "min_available_amt": null,
+          "max_applicable_val": null,
+          "pub_limit_id": "9.0",
+          "description": null,
+          "policy": "본 기프트카드는 로그인 후 사용할 수 있습니다.\n본 기프트카드는 나비얌에서만 사용 가능합니다.\n홈화면 > MY나비 > [기프트카드] > [사용처]의 바로가기 버튼을 클릭해 사용처로 이동 가능합니다.",
+          "admin_remark": null
+        },
+        {
+          "id": "1df9c280ad4b11efad310022486cd6f5",
+          "created_at": "2024-11-28 14:39:28",
+          "updated_at": "2025-02-20 19:09:22",
+          "deleted_at": null,
+          "name": "테스트카드",
+          "image_url": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/dev/test/b68c3b45bf264b958e5795b76e273952/image.png",
+          "published_at": "2024-11-18 13:00:00",
+          "expired_at": "2025-02-20 23:59:59",
+          "paused_at": null,
+          "pub_amt": "20000.0",
+          "pub_quantity": "10.0",
+          "usage_list": "[STORE,COMMERCE,GIFTICON]",
+          "targets": "{\"CERTIFIED\":[\"OVER_19\"],\"NON_CERTIFIED\":[]}",
+          "min_available_amt": null,
+          "max_applicable_val": null,
+          "pub_limit_id": "5.0",
+          "description": null,
+          "policy": "본 기프트카드는 로그인 후 사용할 수 있습니다.\n본 기프트카드는 나비얌에서만 사용 가능합니다.\n홈화면 > MY나비 > [기프트카드] > [사용처]의 바로가기 버튼을 클릭해 사용처로 이동 가능합니다.",
+          "admin_remark": null
+        },
+        {
+          "id": "7ec9e1fb235246879cbc4c09b8e86da1",
+          "created_at": "2024-12-19 13:12:58",
+          "updated_at": "2025-01-20 11:58:26",
+          "deleted_at": null,
+          "name": "나비얌 GOODBYE 2024",
+          "image_url": "https://s3-navi.s3.ap-northeast-2.amazonaws.com/image/537e93f69abe4086a90afbdbf43dee44/image.png",
+          "published_at": "2024-12-19 13:30:00",
+          "expired_at": "2025-07-31 12:00:00",
+          "paused_at": null,
+          "pub_amt": "100000.0",
+          "pub_quantity": null,
+          "usage_list": "[STORE,COMMERCE,GIFTICON]",
+          "targets": "{\"CERTIFIED\":[\"UNDER_6\",\"ELEMENTARY\",\"MIDDLE_HIGH\",\"YOUTH\",\"OVER_19\"],\"NON_CERTIFIED\":[\"UNDER_6\",\"ELEMENTARY\",\"MIDDLE_HIGH\",\"YOUTH\",\"OVER_19\"]}",
+          "min_available_amt": null,
+          "max_applicable_val": null,
+          "pub_limit_id": null,
+          "description": "나비 팀 멤버들에게 이벤트로 제공되는 10만원 금액권입니다.",
+          "policy": "본 기프트카드는 로그인 후 사용할 수 있습니다.\n본 기프트카드는 나비얌에서만 사용 가능합니다.\n홈화면 > MY나비 > [기프트카드] > [사용처]의 바로가기 버튼을 클릭해 사용처로 이동 가능합니다.",
+          "admin_remark": "나비 팀 멤버들에게 이벤트로 제공되는 10만원 금액권입니다."
+        }
+      ]
+    },
+    "giftcard_wallet": {
+      "name": "giftcard_wallet",
+      "rows": 11,
+      "columns": 9,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "user_id",
+        "giftcard_id",
+        "balance",
+        "hidden_at",
+        "paused_at"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0007ae80f824414db2964d62240a4175",
+            "0028ea78796049ec9686f65f2c27b5c2",
+            "005103b7023c45948e1bc7b970c7f357"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-21 13:06:04",
+            "2025-03-10 13:02:33",
+            "2025-02-20 13:03:41"
+          ],
+          "unique_count": 8
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-03-10 16:27:33",
+            "2025-04-04 14:39:22",
+            "2025-03-09 16:04:37"
+          ],
+          "unique_count": 10
+        },
+        "deleted_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "5960.0",
+            "5749.0",
+            "6013.0"
+          ],
+          "unique_count": 10
+        },
+        "giftcard_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "07e828b19d124d19b21fc138b3b7b075",
+            "c7970928cbba45c28cef868fc250d949",
+            "07e828b19d124d19b21fc138b3b7b075"
+          ],
+          "unique_count": 4
+        },
+        "balance": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0.0",
+            "0.0",
+            "1200.0"
+          ],
+          "unique_count": 2
+        },
+        "hidden_at": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "2025-02-22 22:52:41"
+          ],
+          "unique_count": 1
+        },
+        "paused_at": {
+          "dtype": "float64",
+          "non_null_count": 0,
+          "null_count": 11,
+          "sample_values": [],
+          "unique_count": 0
+        }
+      },
+      "user_related_columns": [
+        "user_id"
+      ],
+      "sample_data": [
+        {
+          "id": "0007ae80f824414db2964d62240a4175",
+          "created_at": "2025-02-21 13:06:04",
+          "updated_at": "2025-03-10 16:27:33",
+          "deleted_at": null,
+          "user_id": "5960.0",
+          "giftcard_id": "07e828b19d124d19b21fc138b3b7b075",
+          "balance": "0.0",
+          "hidden_at": null,
+          "paused_at": null
+        },
+        {
+          "id": "0028ea78796049ec9686f65f2c27b5c2",
+          "created_at": "2025-03-10 13:02:33",
+          "updated_at": "2025-04-04 14:39:22",
+          "deleted_at": null,
+          "user_id": "5749.0",
+          "giftcard_id": "c7970928cbba45c28cef868fc250d949",
+          "balance": "0.0",
+          "hidden_at": null,
+          "paused_at": null
+        },
+        {
+          "id": "005103b7023c45948e1bc7b970c7f357",
+          "created_at": "2025-02-20 13:03:41",
+          "updated_at": "2025-03-09 16:04:37",
+          "deleted_at": null,
+          "user_id": "6013.0",
+          "giftcard_id": "07e828b19d124d19b21fc138b3b7b075",
+          "balance": "1200.0",
+          "hidden_at": null,
+          "paused_at": null
+        }
+      ]
+    },
+    "giftcard_wallet_transaction": {
+      "name": "giftcard_wallet_transaction",
+      "rows": 11,
+      "columns": 9,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "wallet_id",
+        "type",
+        "usage_type",
+        "traded_at",
+        "amount",
+        "content"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "0007a20250221130604f90Xj",
+            "0007a20250306211118VlHJI",
+            "0007a2025030621114570HzQ"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-21 13:06:04",
+            "2025-03-06 21:11:18",
+            "2025-03-06 21:11:46"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-21 13:06:04",
+            "2025-03-06 21:11:19",
+            "2025-03-06 21:11:47"
+          ],
+          "unique_count": 10
+        },
+        "wallet_id": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "0007ae80f824414db2964d62240a4175",
+            "0007ae80f824414db2964d62240a4175",
+            "0007ae80f824414db2964d62240a4175"
+          ],
+          "unique_count": 2
+        },
+        "type": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "DEPOSIT",
+            "WITHDRAW",
+            "WITHDRAW"
+          ],
+          "unique_count": 2
+        },
+        "usage_type": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "AWARD",
+            "USE",
+            "USE"
+          ],
+          "unique_count": 2
+        },
+        "traded_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-02-21 13:06:04",
+            "2025-03-06 21:11:19",
+            "2025-03-06 21:11:47"
+          ],
+          "unique_count": 10
+        },
+        "amount": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "50000.0",
+            "10000.0",
+            "10000.0"
+          ],
+          "unique_count": 5
+        },
+        "content": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "기프트카드 지급",
+            "GS25 모바일 상품권 1만원권",
+            "GS25 모바일 상품권 1만원권"
+          ],
+          "unique_count": 4
+        }
+      },
+      "user_related_columns": [],
+      "sample_data": [
+        {
+          "id": "0007a20250221130604f90Xj",
+          "created_at": "2025-02-21 13:06:04",
+          "updated_at": "2025-02-21 13:06:04",
+          "wallet_id": "0007ae80f824414db2964d62240a4175",
+          "type": "DEPOSIT",
+          "usage_type": "AWARD",
+          "traded_at": "2025-02-21 13:06:04",
+          "amount": "50000.0",
+          "content": "기프트카드 지급"
+        },
+        {
+          "id": "0007a20250306211118VlHJI",
+          "created_at": "2025-03-06 21:11:18",
+          "updated_at": "2025-03-06 21:11:19",
+          "wallet_id": "0007ae80f824414db2964d62240a4175",
+          "type": "WITHDRAW",
+          "usage_type": "USE",
+          "traded_at": "2025-03-06 21:11:19",
+          "amount": "10000.0",
+          "content": "GS25 모바일 상품권 1만원권"
+        },
+        {
+          "id": "0007a2025030621114570HzQ",
+          "created_at": "2025-03-06 21:11:46",
+          "updated_at": "2025-03-06 21:11:47",
+          "wallet_id": "0007ae80f824414db2964d62240a4175",
+          "type": "WITHDRAW",
+          "usage_type": "USE",
+          "traded_at": "2025-03-06 21:11:47",
+          "amount": "10000.0",
+          "content": "GS25 모바일 상품권 1만원권"
+        }
+      ]
+    },
+    "point_transaction": {
+      "name": "point_transaction",
+      "rows": 11,
+      "columns": 12,
+      "column_list": [
+        "id",
+        "created_at",
+        "updated_at",
+        "user_id",
+        "type_cat",
+        "type",
+        "content",
+        "amount",
+        "balance",
+        "expired_at",
+        "remark",
+        "ord_service"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "object",
+          "non_null_count": 11,
+          "null_count": 0,
+          "sample_values": [
+            "1042_250426134228019q2QkW6Q7yp",
+            "1042_250426185709944cFE6EIdKrD",
+            "10609_250708182629807870vLRaOf"
+          ],
+          "unique_count": 11
+        },
+        "created_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-26 13:42:28.020353",
+            "2025-04-26 18:57:09.945046",
+            "2025-07-08 18:26:29.808289"
+          ],
+          "unique_count": 10
+        },
+        "updated_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2025-04-26 13:42:28.020353",
+            "2025-04-26 18:57:09.945046",
+            "2025-07-08 18:26:29.808289"
+          ],
+          "unique_count": 10
+        },
+        "user_id": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "1042.0",
+            "1042.0",
+            "10609.0"
+          ],
+          "unique_count": 7
+        },
+        "type_cat": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "1.0",
+            "1.0",
+            "1.0"
+          ],
+          "unique_count": 3
+        },
+        "type": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "12.0",
+            "12.0",
+            "12.0"
+          ],
+          "unique_count": 3
+        },
+        "content": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "앱테크 포인트 적립",
+            "앱테크 포인트 적립",
+            "앱테크 포인트 적립"
+          ],
+          "unique_count": 4
+        },
+        "amount": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "6.0",
+            "6.0",
+            "6.0"
+          ],
+          "unique_count": 5
+        },
+        "balance": {
+          "dtype": "float64",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "6.0",
+            "6.0",
+            "6.0"
+          ],
+          "unique_count": 5
+        },
+        "expired_at": {
+          "dtype": "object",
+          "non_null_count": 10,
+          "null_count": 1,
+          "sample_values": [
+            "2026-04-26 23:59:59.000000",
+            "2026-04-26 23:59:59.000000",
+            "2026-07-08 23:59:59.000000"
+          ],
+          "unique_count": 7
+        },
+        "remark": {
+          "dtype": "object",
+          "non_null_count": 3,
+          "null_count": 8,
+          "sample_values": [
+            "더나은미래x나눔비타민 설문조사 참여자",
+            "더나은미래x나눔비타민 설문조사 참여자",
+            "개발 테스트 지급"
+          ],
+          "unique_count": 2
+        },
+        "ord_service": {
+          "dtype": "object",
+          "non_null_count": 1,
+          "null_count": 10,
+          "sample_values": [
+            "BARCODE_SHOP"
+          ],
+          "unique_count": 1
+        }
+      },
+      "user_related_columns": [
+        "user_id"
+      ],
+      "sample_data": [
+        {
+          "id": "1042_250426134228019q2QkW6Q7yp",
+          "created_at": "2025-04-26 13:42:28.020353",
+          "updated_at": "2025-04-26 13:42:28.020353",
+          "user_id": "1042.0",
+          "type_cat": "1.0",
+          "type": "12.0",
+          "content": "앱테크 포인트 적립",
+          "amount": "6.0",
+          "balance": "6.0",
+          "expired_at": "2026-04-26 23:59:59.000000",
+          "remark": null,
+          "ord_service": null
+        },
+        {
+          "id": "1042_250426185709944cFE6EIdKrD",
+          "created_at": "2025-04-26 18:57:09.945046",
+          "updated_at": "2025-04-26 18:57:09.945046",
+          "user_id": "1042.0",
+          "type_cat": "1.0",
+          "type": "12.0",
+          "content": "앱테크 포인트 적립",
+          "amount": "6.0",
+          "balance": "6.0",
+          "expired_at": "2026-04-26 23:59:59.000000",
+          "remark": null,
+          "ord_service": null
+        },
+        {
+          "id": "10609_250708182629807870vLRaOf",
+          "created_at": "2025-07-08 18:26:29.808289",
+          "updated_at": "2025-07-08 18:26:29.808289",
+          "user_id": "10609.0",
+          "type_cat": "1.0",
+          "type": "12.0",
+          "content": "앱테크 포인트 적립",
+          "amount": "6.0",
+          "balance": "6.0",
+          "expired_at": "2026-07-08 23:59:59.000000",
+          "remark": null,
+          "ord_service": null
+        }
+      ]
+    }
+  },
+  "user_related_info": [
+    {
+      "sheet": "ticket",
+      "columns": [
+        "user_id",
+        "user_coupon_id"
+      ]
+    },
+    {
+      "sheet": "product_order",
+      "columns": [
+        "user_id",
+        "user_name",
+        "user_coupon_id"
+      ]
+    },
+    {
+      "sheet": "coop_coupon_ticket",
+      "columns": [
+        "user_id",
+        "user_coupon_id"
+      ]
+    },
+    {
+      "sheet": "review",
+      "columns": [
+        "user_id"
+      ]
+    },
+    {
+      "sheet": "user_location",
+      "columns": [
+        "user_id"
+      ]
+    },
+    {
+      "sheet": "userfavorite",
+      "columns": [
+        "userId"
+      ]
+    },
+    {
+      "sheet": "foodcard",
+      "columns": [
+        "user_id"
+      ]
+    },
+    {
+      "sheet": "coupon_user_map",
+      "columns": [
+        "user_id"
+      ]
+    },
+    {
+      "sheet": "giftcard_wallet",
+      "columns": [
+        "user_id"
+      ]
+    },
+    {
+      "sheet": "point_transaction",
+      "columns": [
+        "user_id"
+      ]
+    }
+  ]
+}

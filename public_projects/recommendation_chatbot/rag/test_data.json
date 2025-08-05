@@ -1,0 +1,487 @@
+{
+  "shops": {
+    "1": {
+      "id": 1,
+      "name": "백년카츠 관악점",
+      "category": "일식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "서울 관악구 봉천로 391 제1싱가동 104호 백년카츠",
+      "open_hour": "11:00",
+      "close_hour": "20:30",
+      "owner_message": "돈까스는 백년카츠가 젤 맛있어~",
+      "ordinary_discount": false
+    },
+    "2": {
+      "id": 2,
+      "name": "커피플래닛",
+      "category": "카페/디저트",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "N",
+      "address": "서울 관악구 남부순환로 1508 커피플래닛",
+      "open_hour": "7:00",
+      "close_hour": "0:00",
+      "owner_message": "예약 가능 시간: 평일 13:00~18:00",
+      "ordinary_discount": false
+    },
+    "3": {
+      "id": 3,
+      "name": "청년밥상문간 낙성대점",
+      "category": "한식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "서울 관악구 남부순환로244길 26 지하 1층",
+      "open_hour": "11:30",
+      "close_hour": "14:00",
+      "owner_message": "*급식카드 유저의 경우, 아이와 함께 방문시 나눔 가능합니다.\n매주 일요일 정기휴무, 공휴일 휴무 \n청년밥상문간 낙성대점은 조충연, 박유선 후원자님께서 장소를 제공해 주셨습니다. 감사드립니다.",
+      "ordinary_discount": false
+    },
+    "4": {
+      "id": 4,
+      "name": "청년밥상문간 정릉점",
+      "category": "한식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "서울 성북구 보국문로11길 18-2 2층",
+      "open_hour": "11:00",
+      "close_hour": "20:30",
+      "owner_message": "*급식카드 유저의 경우, 아이와 함께 방문시 나눔 가능합니다.\n매주 일요일 정기휴무, 공휴일 휴무",
+      "ordinary_discount": false
+    },
+    "5": {
+      "id": 5,
+      "name": "청년밥상문간 이대점",
+      "category": "한식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "서울 서대문구 이화여대길 52-39 지하1층",
+      "open_hour": "11:00",
+      "close_hour": "19:30",
+      "owner_message": "*급식카드 유저의 경우, 아이와 함께 방문시 나눔 가능합니다.\n주말, 공휴일 휴무",
+      "ordinary_discount": false
+    },
+    "6": {
+      "id": 6,
+      "name": "라공방 신림점",
+      "category": "중식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "서울 관악구 신림로 340 1층",
+      "open_hour": "11:00",
+      "close_hour": "23:00",
+      "owner_message": "주문금액의 상품권 금액 초과분은 현장에서 결제하실 수 있습니다!",
+      "ordinary_discount": false
+    },
+    "7": {
+      "id": 7,
+      "name": "청년밥상문간 슬로우점(혜화점)",
+      "category": "한식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "서울시 종로구 동숭3길 33, 지하1층(동숭동)",
+      "open_hour": "11:00",
+      "close_hour": "20:30",
+      "owner_message": "오전/오후 두 타임 영업이 이루어집니다^^.",
+      "ordinary_discount": false
+    },
+    "8": {
+      "id": 8,
+      "name": "청년밥상문간 안산점",
+      "category": "한식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "경기도 안산시 상록구 샘골로 165 청송빌딩 B1",
+      "open_hour": "11:00",
+      "close_hour": "20:00",
+      "owner_message": "*급식카드 유저의 경우, 아이와 함께 방문시 나눔 가능합니다.\n오전/오후 두 타임 영업이 이루어집니다^^.\n*토요일은 11:00-15:00 까지 영업합니다.",
+      "ordinary_discount": false
+    },
+    "9": {
+      "id": 9,
+      "name": "쏙,닭",
+      "category": "한식/치킨",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "Y",
+      "address": "서울시 은평구 신사동 3-21, 1층",
+      "open_hour": "16:45",
+      "close_hour": "21:50",
+      "owner_message": "참숯과 참나무장작으로 90분간 굽습니다. \n기름 쏙! 담백힌 쏙,닭입니다. \n부담없이 즐기면 좋겠습니다.",
+      "ordinary_discount": false
+    },
+    "10": {
+      "id": 10,
+      "name": "본도시락 영등포구청점",
+      "category": "한식",
+      "is_good_influence_shop": true,
+      "is_food_card_shop": "Y",
+      "address": "서울 영등포구 선유로 146 [이앤씨드림타워]1층 103호",
+      "open_hour": "10:00",
+      "close_hour": "19:00",
+      "owner_message": "위치는 코스트코 양평점 옆쪽 나무데크쪽으로 오시면 출입문이 보입니다",
+      "ordinary_discount": false
+    }
+  },
+  "menus": {
+    "1": {
+      "id": 1,
+      "shop_id": 1,
+      "name": "돈까스",
+      "price": 12000,
+      "description": "돈까스 - 백년카츠 관악점의 대표메뉴",
+      "category": "일식",
+      "is_popular": true
+    },
+    "2": {
+      "id": 2,
+      "shop_id": 1,
+      "name": "치즈카츠",
+      "price": 13000,
+      "description": "치즈카츠 - 백년카츠 관악점의 대표메뉴",
+      "category": "일식",
+      "is_popular": true
+    },
+    "3": {
+      "id": 3,
+      "shop_id": 1,
+      "name": "우동",
+      "price": 8000,
+      "description": "우동 - 백년카츠 관악점의 대표메뉴",
+      "category": "일식",
+      "is_popular": true
+    },
+    "4": {
+      "id": 4,
+      "shop_id": 2,
+      "name": "아메리카노",
+      "price": 4000,
+      "description": "아메리카노 - 커피플래닛의 대표메뉴",
+      "category": "카페/디저트",
+      "is_popular": true
+    },
+    "5": {
+      "id": 5,
+      "shop_id": 2,
+      "name": "카페라떼",
+      "price": 4500,
+      "description": "카페라떼 - 커피플래닛의 대표메뉴",
+      "category": "카페/디저트",
+      "is_popular": true
+    },
+    "6": {
+      "id": 6,
+      "shop_id": 2,
+      "name": "케이크",
+      "price": 6000,
+      "description": "케이크 - 커피플래닛의 대표메뉴",
+      "category": "카페/디저트",
+      "is_popular": true
+    },
+    "7": {
+      "id": 7,
+      "shop_id": 3,
+      "name": "불고기정식",
+      "price": 10000,
+      "description": "불고기정식 - 청년밥상문간 낙성대점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "8": {
+      "id": 8,
+      "shop_id": 3,
+      "name": "김치찌개",
+      "price": 8000,
+      "description": "김치찌개 - 청년밥상문간 낙성대점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "9": {
+      "id": 9,
+      "shop_id": 3,
+      "name": "된장찌개",
+      "price": 7000,
+      "description": "된장찌개 - 청년밥상문간 낙성대점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "10": {
+      "id": 10,
+      "shop_id": 4,
+      "name": "불고기정식",
+      "price": 10000,
+      "description": "불고기정식 - 청년밥상문간 정릉점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "11": {
+      "id": 11,
+      "shop_id": 4,
+      "name": "김치찌개",
+      "price": 8000,
+      "description": "김치찌개 - 청년밥상문간 정릉점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "12": {
+      "id": 12,
+      "shop_id": 4,
+      "name": "된장찌개",
+      "price": 7000,
+      "description": "된장찌개 - 청년밥상문간 정릉점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "13": {
+      "id": 13,
+      "shop_id": 5,
+      "name": "불고기정식",
+      "price": 10000,
+      "description": "불고기정식 - 청년밥상문간 이대점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "14": {
+      "id": 14,
+      "shop_id": 5,
+      "name": "김치찌개",
+      "price": 8000,
+      "description": "김치찌개 - 청년밥상문간 이대점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "15": {
+      "id": 15,
+      "shop_id": 5,
+      "name": "된장찌개",
+      "price": 7000,
+      "description": "된장찌개 - 청년밥상문간 이대점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "16": {
+      "id": 16,
+      "shop_id": 6,
+      "name": "추천메뉴1",
+      "price": 10000,
+      "description": "추천메뉴1 - 라공방 신림점의 대표메뉴",
+      "category": "중식",
+      "is_popular": true
+    },
+    "17": {
+      "id": 17,
+      "shop_id": 6,
+      "name": "추천메뉴2",
+      "price": 12000,
+      "description": "추천메뉴2 - 라공방 신림점의 대표메뉴",
+      "category": "중식",
+      "is_popular": true
+    },
+    "18": {
+      "id": 18,
+      "shop_id": 7,
+      "name": "불고기정식",
+      "price": 10000,
+      "description": "불고기정식 - 청년밥상문간 슬로우점(혜화점)의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "19": {
+      "id": 19,
+      "shop_id": 7,
+      "name": "김치찌개",
+      "price": 8000,
+      "description": "김치찌개 - 청년밥상문간 슬로우점(혜화점)의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "20": {
+      "id": 20,
+      "shop_id": 7,
+      "name": "된장찌개",
+      "price": 7000,
+      "description": "된장찌개 - 청년밥상문간 슬로우점(혜화점)의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "21": {
+      "id": 21,
+      "shop_id": 8,
+      "name": "불고기정식",
+      "price": 10000,
+      "description": "불고기정식 - 청년밥상문간 안산점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "22": {
+      "id": 22,
+      "shop_id": 8,
+      "name": "김치찌개",
+      "price": 8000,
+      "description": "김치찌개 - 청년밥상문간 안산점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "23": {
+      "id": 23,
+      "shop_id": 8,
+      "name": "된장찌개",
+      "price": 7000,
+      "description": "된장찌개 - 청년밥상문간 안산점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "24": {
+      "id": 24,
+      "shop_id": 9,
+      "name": "불고기정식",
+      "price": 10000,
+      "description": "불고기정식 - 쏙,닭의 대표메뉴",
+      "category": "한식/치킨",
+      "is_popular": true
+    },
+    "25": {
+      "id": 25,
+      "shop_id": 9,
+      "name": "김치찌개",
+      "price": 8000,
+      "description": "김치찌개 - 쏙,닭의 대표메뉴",
+      "category": "한식/치킨",
+      "is_popular": true
+    },
+    "26": {
+      "id": 26,
+      "shop_id": 9,
+      "name": "된장찌개",
+      "price": 7000,
+      "description": "된장찌개 - 쏙,닭의 대표메뉴",
+      "category": "한식/치킨",
+      "is_popular": true
+    },
+    "27": {
+      "id": 27,
+      "shop_id": 10,
+      "name": "불고기정식",
+      "price": 10000,
+      "description": "불고기정식 - 본도시락 영등포구청점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "28": {
+      "id": 28,
+      "shop_id": 10,
+      "name": "김치찌개",
+      "price": 8000,
+      "description": "김치찌개 - 본도시락 영등포구청점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    },
+    "29": {
+      "id": 29,
+      "shop_id": 10,
+      "name": "된장찌개",
+      "price": 7000,
+      "description": "된장찌개 - 본도시락 영등포구청점의 대표메뉴",
+      "category": "한식",
+      "is_popular": true
+    }
+  },
+  "coupons": {
+    "NAVIYAM10": {
+      "id": "NAVIYAM10",
+      "name": "급식카드 사용자 전용 1,000원 할인",
+      "description": "나비얌 급식카드로 결제 시 1,000원을 즉시 할인해드려요",
+      "amount": 1000,
+      "min_amount": 5000,
+      "usage_type": "FOODCARD",
+      "target": ["FOODCARD_USERS"],
+      "applicable_shops": [],
+      "valid_from": "2025-08-01",
+      "valid_until": "2025-12-31"
+    },
+    "GOOD5": {
+      "id": "GOOD5",
+      "name": "착한가게 5% 할인",
+      "description": "선한영향력가게에서 5% 할인을 받아보세요!",
+      "amount": 0,
+      "discount_rate": 0.05,
+      "min_amount": 0,
+      "usage_type": "GOOD_SHOP",
+      "target": ["ALL"],
+      "applicable_shops": [],
+      "valid_from": "2025-08-01",
+      "valid_until": "2025-12-31"
+    },
+    "MONTHLY20": {
+      "id": "MONTHLY20",
+      "name": "월말 긴급지원 2,000원",
+      "description": "월말 잔액 부족 시 2,000원 할인 지원",
+      "amount": 2000,
+      "min_amount": 3000,
+      "usage_type": "EMERGENCY",
+      "target": ["LOW_BALANCE"],
+      "applicable_shops": [],
+      "valid_from": "2025-08-25",
+      "valid_until": "2025-08-31"
+    },
+    "KOREAN10": {
+      "id": "KOREAN10",
+      "name": "한식 10% 할인",
+      "description": "모든 한식 메뉴 10% 할인",
+      "amount": 0,
+      "discount_rate": 0.10,
+      "min_amount": 0,
+      "usage_type": "CATEGORY",
+      "target": ["한식"],
+      "applicable_shops": [],
+      "valid_from": "2025-08-01",
+      "valid_until": "2025-08-31"
+    },
+    "TEEN15": {
+      "id": "TEEN15",
+      "name": "청소년 1,500원 할인",
+      "description": "청소년 급식카드 사용자 특별 할인",
+      "amount": 1500,
+      "min_amount": 7000,
+      "usage_type": "FOODCARD",
+      "target": ["TEEN_FOODCARD"],
+      "applicable_shops": [],
+      "valid_from": "2025-08-01",
+      "valid_until": "2025-12-31"
+    },
+    "FASTFOOD20": {
+      "id": "FASTFOOD20",
+      "name": "패스트푸드 20% 할인",
+      "description": "버거킹, 롯데리아 등 패스트푸드 20% 할인",
+      "amount": 0,
+      "discount_rate": 0.20,
+      "min_amount": 0,
+      "usage_type": "CATEGORY",
+      "target": ["패스트푸드"],
+      "applicable_shops": [],
+      "valid_from": "2025-08-01",
+      "valid_until": "2025-08-15"
+    }
+  },
+  "foodcard_users": {
+    "1": {
+      "user_id": 1,
+      "card_number": "1234-5678-9012",
+      "balance": 25000,
+      "status": "ACTIVE",
+      "target_age_group": "청소년"
+    },
+    "2": {
+      "user_id": 2,
+      "card_number": "2345-6789-0123",
+      "balance": 5000,
+      "status": "ACTIVE",
+      "target_age_group": "청소년"
+    },
+    "3": {
+      "user_id": 3,
+      "card_number": "3456-7890-1234",
+      "balance": 15000,
+      "status": "ACTIVE",
+      "target_age_group": "청년"
+    }
+  }
+}

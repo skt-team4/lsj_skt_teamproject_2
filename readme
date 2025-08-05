@@ -1,0 +1,120 @@
+# LSJ File Server and API
+
+This project provides a simple file server with basic authentication and a basic API endpoint.
+
+## Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository_url>
+    cd LSJ
+    ```
+
+2.  **Install Python dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Using Docker (Optional):**
+    Build the Docker image:
+    ```bash
+    docker build -t lsj-app .
+    ```
+
+## Running the Application
+
+### Locally
+
+To run the application locally, execute:
+
+```bash
+python server.py
+```
+
+The server will run on `http://127.0.0.1:8000`.
+
+### With Docker
+
+To run the application using Docker:
+
+```bash
+docker run -p 8000:8000 lsj-app
+```
+
+## API Endpoints
+
+The API provides the following endpoints:
+
+*   **`/` (GET)**: Returns a welcome message.
+    ```json
+    {"message": "lsj is running"}
+    ```
+
+*   **`/send` (POST)**: Accepts a JSON message and returns it.
+    **Request Body:**
+    ```json
+    {"text": "Your message here"}
+    ```
+    **Response:**
+    ```json
+    {"lsj received_message": "Your message here"}
+    ```
+
+*   **`/files` (GET)**: Lists all available files in the `publicdata` directory. Requires basic authentication.
+
+*   **`/files/{filename}` (GET)**: Retrieves a specific file from the `publicdata` directory. Requires basic authentication.
+
+*   **`/uploadfile/` (POST)**: Uploads a file to the server. Requires basic authentication.
+    **Request Body (multipart/form-data):**
+    *   `file`: The file to upload.
+
+    **Example (using curl):**
+    ```bash
+    curl -X POST -u admin:password -F "file=@/path/to/your/file.txt" https://lsj-app-816056347823.asia-northeast3.run.app/uploadfile/
+    ```
+
+*   **`/uploadfile/` (POST)**: Uploads a file to the server. Requires basic authentication.
+    **Request Body (multipart/form-data):**
+    *   `file`: The file to upload.
+
+    **Example (using curl):**
+    ```bash
+    curl -X POST -u admin:password -F "file=@/path/to/your/file.txt" https://lsj-app-816056347823.asia-northeast3.run.app/uploadfile/
+    ```
+
+*   **`/info` (GET)**: Returns a simple information message.
+
+*   **`/data` (GET)**: Returns the current in-memory data list.
+
+*   **`/data/add` (POST)**: Adds a new item to the in-memory data list. Requires authentication.
+    **Request Body (form-data or query parameter):**
+    *   `item`: The string item to add.
+
+    **Example (using curl):**
+    ```bash
+    curl -X POST -u admin:password "https://lsj-app-816056347823.asia-northeast3.run.app/data/add?item=new_item"
+    ```
+
+## File Storage
+
+This application now uses Google Cloud Storage (GCS) for permanent file storage. Files uploaded via the `/uploadfile/` endpoint will be stored in the GCS bucket, and files retrieved via `/files` or `/files/{filename}` will be served from GCS.
+
+**GCS Bucket Name:** `rational-autumn-467006-e2-lsj-files`
+
+## Authentication
+
+File access endpoints (`/files`, `/files/{filename}`, `/uploadfile/`, and `/data/add`) are protected by basic authentication.
+
+**Default Credentials:**
+*   **Username:** `admin`
+*   **Password:** `password`
+
+**Note:** In a production environment, it is highly recommended to use environment variables for credentials. You can set `SERVER_USERNAME` and `SERVER_PASSWORD` environment variables to override the default values.
+
+## Testing
+
+To run the tests, ensure you have `pytest` and `httpx` installed (included in `requirements.txt`), then execute:
+
+```bash
+pytest
+```

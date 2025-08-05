@@ -1,0 +1,87 @@
+{
+  "shops": {
+    "1": {
+      "id": 1,
+      "name": "맛있는치킨",
+      "category": "치킨",
+      "is_good_influence_shop": true,
+      "is_food_card_shop": "Y",
+      "address": "서울시 강남구",
+      "open_hour": "10:00",
+      "close_hour": "22:00",
+      "owner_message": "바삭바삭한 치킨입니다!",
+      "ordinary_discount": false
+    },
+    "2": {
+      "id": 2,
+      "name": "신선한한식",
+      "category": "한식",
+      "is_good_influence_shop": true,
+      "is_food_card_shop": "Y",
+      "address": "서울시 홍대",
+      "open_hour": "11:00",
+      "close_hour": "23:00",
+      "owner_message": "건강한 한식 맛집!",
+      "ordinary_discount": true
+    },
+    "3": {
+      "id": 3,
+      "name": "이탈리아파스타",
+      "category": "양식",
+      "is_good_influence_shop": false,
+      "is_food_card_shop": "N",
+      "address": "서울시 명동",
+      "open_hour": "12:00",
+      "close_hour": "22:00",
+      "owner_message": "정통 이탈리아 파스타",
+      "ordinary_discount": false
+    }
+  },
+  "menus": {
+    "1": {
+      "id": 1,
+      "shop_id": 1,
+      "name": "후라이드치킨",
+      "price": 15000,
+      "description": "바삭바삭한 후라이드",
+      "category": "치킨",
+      "is_popular": true
+    },
+    "2": {
+      "id": 2,
+      "shop_id": 1,
+      "name": "양념치킨",
+      "price": 16000,
+      "description": "달콤한 양념치킨",
+      "category": "치킨",
+      "is_popular": false
+    },
+    "3": {
+      "id": 3,
+      "shop_id": 2,
+      "name": "불고기정식",
+      "price": 12000,
+      "description": "한우 불고기 정식",
+      "category": "한식",
+      "is_popular": true
+    },
+    "4": {
+      "id": 4,
+      "shop_id": 3,
+      "name": "크림파스타",
+      "price": 18000,
+      "description": "진짜 크림 파스타",
+      "category": "양식",
+      "is_popular": true
+    },
+    "5": {
+      "id": 5,
+      "shop_id": 3,
+      "name": "토마토파스타",
+      "price": 16000,
+      "description": "신선한 토마토 파스타",
+      "category": "양식",
+      "is_popular": false
+    }
+  }
+}

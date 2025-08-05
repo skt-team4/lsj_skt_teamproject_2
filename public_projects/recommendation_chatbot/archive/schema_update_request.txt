@@ -1,0 +1,41 @@
+나비얌 챗봇의 데이터베이스 스키마를 업데이트해야 합니다.
+
+현재 상황:
+1. COMPLETE_DATABASE_SCHEMA_FILTERED.md에서 일부 테이블이 누락됨
+2. 쿠폰 테이블은 코드에는 있지만 실제 사용되지 않아서 제외됨
+3. 이전에 논의한 내용:
+   - foodcard_users 테이블에서 is_verified, monthly_limit 제거
+   - status는 유지 (active/inactive로 카드 사용 가능 여부 표시)
+   - 13개 카테고리 시스템 적용
+
+업데이트해야 할 사항:
+1. 쿠폰 테이블 포함 여부 결정
+2. foodcard_users 테이블 간소화
+3. 카테고리 시스템 반영
+4. 실제 AI 운영에 필요한 최소한의 스키마로 정리
+
+각 테이블별로 필요/불필요 판단하고, 특히 다음을 고려해주세요:
+- AI 추천 시스템에 직접적으로 필요한가?
+- 데이터 수집 및 학습에 사용되는가?
+- 운영상 필수적인가?
+
+현재 필터링된 스키마의 테이블:
+1. shops - 가게 정보
+2. menus - 메뉴 정보  
+3. users - 일반 사용자
+4. foodcard_users - 급식카드 사용자
+5. user_interactions - 상호작용 로그
+6. recommendations_log - 추천 로그
+
+전체 스키마에만 있는 테이블:
+1. coupons - 쿠폰 정보
+2. conversations - 대화 로그
+3. nlu_features - NLU 특징
+4. user_feedback - 사용자 피드백
+5. structured_learning_data - 학습 데이터
+6. user_profiles - 사용자 프로필
+7. collection_sessions - 데이터 수집 세션
+8. data_quality_metrics - 데이터 품질
+9. performance_logs - 성능 로그
+
+각 테이블의 필요성을 평가하고 최종 스키마를 제안해주세요.
