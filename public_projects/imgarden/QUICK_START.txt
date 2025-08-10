@@ -1,0 +1,23 @@
+
+나비얌 챗봇 Docker 빠른 시작 가이드
+=====================================
+
+1. 환경 설정:
+   cp .env.example .env
+   # .env 파일에서 API_KEY 수정
+
+2. 실행:
+   # Windows
+   docker-build.bat
+   
+   # Linux/Mac
+   chmod +x docker-build.sh
+   ./docker-build.sh
+
+3. 테스트:
+   curl http://localhost:8000/health
+
+4. API 문서:
+   http://localhost:8000/docs
+
+자세한 내용은 DEPLOYMENT_GUIDE.md 참조

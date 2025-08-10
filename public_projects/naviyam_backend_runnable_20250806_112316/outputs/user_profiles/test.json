@@ -1,0 +1,39 @@
+{
+  "user_id": "test",
+  "preferred_categories": [
+    "치킨"
+  ],
+  "average_budget": null,
+  "favorite_shops": [],
+  "recent_orders": [
+    {
+      "timestamp": "2025-08-06T15:21:28.215670",
+      "intent": "food_request",
+      "food_type": "치킨",
+      "budget": null,
+      "emotion": "positive"
+    },
+    {
+      "timestamp": "2025-08-06T15:21:38.580692",
+      "intent": "food_request",
+      "food_type": "치킨",
+      "budget": null,
+      "emotion": "positive"
+    },
+    {
+      "timestamp": "2025-08-06T15:21:43.128543",
+      "intent": "food_request",
+      "food_type": "치킨",
+      "budget": null,
+      "emotion": "positive"
+    }
+  ],
+  "conversation_style": "friendly",
+  "last_updated": "2025-08-06T15:21:43.128550",
+  "taste_preferences": {},
+  "companion_patterns": [],
+  "location_preferences": [],
+  "good_influence_preference": 0.5,
+  "interaction_count": 3,
+  "data_completeness": 0.25
+}

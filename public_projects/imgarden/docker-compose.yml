@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+  naviyam-chatbot:
+    image: naviyam-fixed:latest
+    container_name: naviyam-chatbot
+    restart: unless-stopped
+    ports:
+      - "8000:8080"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CUDA_VISIBLE_DEVICES=0
+      - MODEL_NAME=skt/A.X-3.1-Light
+      - NLU_TYPE=${NLU_TYPE:-ax_encoder}
+      - USE_4BIT=${USE_4BIT:-true}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - API_KEY=${API_KEY:-your-api-key-here}
+      - DATABASE_URL=${DATABASE_URL:-postgresql://user:password@localhost/naviyam_db}
+    volumes:
+      # 모델 캐시를 호스트와 공유 (다운로드 중복 방지)
+      - ${HOME}/.cache/huggingface:/root/.cache/huggingface
+      # 데이터 및 로그 볼륨
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./preprocessed_data:/app/preprocessed_data
+      - ./models:/app/models
+      # FAISS 인덱스
+      - ./temp_naviyam:/app/temp_naviyam
+    # GPU 설정 비활성화 (Mac에서는 NVIDIA GPU 사용 불가)
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    networks:
+      - naviyam-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: PostgreSQL database
+  postgres:
+    image: postgres:15
+    container_name: naviyam-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=naviyam
+      - POSTGRES_PASSWORD=naviyam123
+      - POSTGRES_DB=naviyam_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - naviyam-network
+
+  # Optional: Redis for caching
+  redis:
+    image: redis:7-alpine
+    container_name: naviyam-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    networks:
+      - naviyam-network
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+
+networks:
+  naviyam-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:

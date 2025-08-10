@@ -1,0 +1,23 @@
+나비얌 챗봇 백엔드 - 빠른 시작 가이드
+=====================================
+
+1. 서버 실행:
+   Windows: START_SERVER.bat 더블클릭
+   Linux/Mac: ./START_SERVER.sh
+
+2. 서버 준비 확인:
+   브라우저에서 http://localhost:8000/health 접속
+
+3. API 테스트:
+   python test_api.py
+
+4. API 문서:
+   http://localhost:8000/docs
+
+5. 프론트엔드 연동:
+   - 엔드포인트: POST /v1/chat/completions
+   - GPT API 형식과 동일
+
+문제 발생시:
+- 포트 충돌: api/server.py에서 port=8000을 다른 번호로 변경
+- 메모리 부족: requirements.txt 확인 후 가상환경 사용 권장

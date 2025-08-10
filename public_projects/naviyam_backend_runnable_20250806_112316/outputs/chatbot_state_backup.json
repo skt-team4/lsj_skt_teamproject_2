@@ -1,0 +1,13 @@
+{
+  "conversation_memory": {},
+  "performance_metrics": {
+    "total_conversations": 5,
+    "total_response_time": 58.53976583480835,
+    "avg_response_time": 11.70795316696167,
+    "intent_accuracy": 0.0,
+    "user_satisfaction": 0.0,
+    "error_count": 0,
+    "successful_recommendations": 5
+  },
+  "timestamp": "2025-08-06T15:30:45.550971"
+}

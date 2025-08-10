@@ -1,0 +1,138 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+*.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test & Dev files
+test_*.py
+*_test.py
+dev/
+tests/
+test*.py
+quick_test*
+
+# Archives & Backups
+*.zip
+*.tar
+*.gz
+archive/
+temp_*
+*_backup*
+_UL*
+_ul*
+
+# Build artifacts
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Documentation (not needed for runtime)
+docs/
+*.md
+!README.Docker.md
+!DEPLOYMENT_GUIDE.md
+
+# Large files & Cache
+cache/models*/
+cache/queries/
+*.safetensors
+*.pkl
+*.pth
+!outputs/recommendation_models/best_model.pth
+
+# Training data
+chatbot_training_data.jsonl
+nlu_training_data.jsonl
+wide_deep_training_data.csv
+generated_*.json
+generated_*.xlsx
+full_dataset_*.xlsx
+
+# Database files
+*.sql
+*.db
+*.sqlite
+
+# Screenshots & Images
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.pdf
+
+# Temporary files
+tmpp*
+feedback_analysis.txt
+project_analysis.txt
+
+# Old packages
+naviyam_backend_*.zip
+aiyam_chatbot_backend.zip
+temp_backend_package/
+temp_runnable_*/
+
+# Store lists (sensitive data)
+store_list/*.csv
+store_list/*.xlsx
+
+# User profiles (privacy)
+outputs/user_profiles/*.json
+
+# Learning data (can be regenerated)
+outputs/learning_data/
+archive/learning_data/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.local
+.env.*.local
+
+# Scripts not for production
+create_*.py
+create_*.bat
+create_*.sh
+convert_*.py
+generate_*.py
+train_*.py
+download_*.py
+make_zip*
+verify_*
+
+# Run scripts (keep only docker ones)
+run_*.bat
+!docker-build.bat
+!docker-build.sh

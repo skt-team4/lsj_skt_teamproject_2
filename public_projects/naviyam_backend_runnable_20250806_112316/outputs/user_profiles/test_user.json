@@ -1,0 +1,25 @@
+{
+  "user_id": "test_user",
+  "preferred_categories": [
+    "피자"
+  ],
+  "average_budget": null,
+  "favorite_shops": [],
+  "recent_orders": [
+    {
+      "timestamp": "2025-08-06T15:12:52.310847",
+      "intent": "food_request",
+      "food_type": "피자",
+      "budget": null,
+      "emotion": "positive"
+    }
+  ],
+  "conversation_style": "friendly",
+  "last_updated": "2025-08-06T15:12:52.310881",
+  "taste_preferences": {},
+  "companion_patterns": [],
+  "location_preferences": [],
+  "good_influence_preference": 0.5,
+  "interaction_count": 1,
+  "data_completeness": 0.125
+}
