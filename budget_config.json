@@ -1,0 +1,32 @@
+{
+  "displayName": "월간 예산 알림",
+  "budgetFilter": {
+    "projects": ["projects/rational-autumn-467006-e2"]
+  },
+  "amount": {
+    "specifiedAmount": {
+      "currencyCode": "KRW",
+      "units": "30000"
+    }
+  },
+  "thresholdRules": [
+    {
+      "thresholdPercent": 0.5,
+      "spendBasis": "CURRENT_SPEND"
+    },
+    {
+      "thresholdPercent": 0.9,
+      "spendBasis": "CURRENT_SPEND"
+    },
+    {
+      "thresholdPercent": 1.0,
+      "spendBasis": "CURRENT_SPEND"
+    }
+  ],
+  "notificationsRule": {
+    "pubsubTopic": "",
+    "schemaVersion": "1.0",
+    "monitoringNotificationChannels": [],
+    "disableDefaultIamRecipients": false
+  }
+}

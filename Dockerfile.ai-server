@@ -1,0 +1,47 @@
+# AI 서버용 Dockerfile
+# GPU 지원 + CPU 폴백 모두 가능
+
+# NVIDIA CUDA 베이스 이미지 (GPU 지원)
+FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04 AS gpu-base
+
+# CPU 전용 베이스 이미지
+FROM python:3.10-slim AS cpu-base
+
+# 멀티스테이지 빌드 - 최종 이미지
+FROM gpu-base AS final
+
+# 기본 패키지 설치
+RUN apt-get update && apt-get install -y \
+    python3.10 \
+    python3-pip \
+    git \
+    wget \
+    && rm -rf /var/lib/apt/lists/*
+
+# Python 패키지 설치
+WORKDIR /app
+
+# requirements.txt 복사 및 설치
+COPY requirements-docker.txt .
+RUN pip3 install --no-cache-dir -r requirements-docker.txt
+
+# 앱 코드 복사
+COPY gpu_server.py .
+COPY models/ ./models/
+COPY data/ ./data/
+COPY utils/ ./utils/
+
+# 환경 변수 설정
+ENV PYTHONUNBUFFERED=1
+ENV CUDA_VISIBLE_DEVICES=0
+ENV PORT=8000
+
+# 헬스체크
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+  CMD curl -f http://localhost:8000/health || exit 1
+
+# 포트 노출
+EXPOSE 8000
+
+# 서버 실행
+CMD ["python3", "gpu_server.py"]
