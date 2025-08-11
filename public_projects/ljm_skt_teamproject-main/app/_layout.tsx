@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     color: '#333',
     textAlign: 'center',
     fontWeight: '500',
-    lineHeight: 16,
+    lineHeight: 16,     
   },
   speechBubbleTail: {
     position: 'absolute',

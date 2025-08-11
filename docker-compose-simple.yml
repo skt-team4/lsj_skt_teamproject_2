@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  # OpenAI 호환 AI 서버
+  ai-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.openai-compatible
+    container_name: openai-compatible-server
+    ports:
+      - "8000:8000"
+    environment:
+      - CUSTOM_API_KEY=sk-workstation-123456789
+    restart: unless-stopped
+    volumes:
+      - ./cache:/app/cache  # 모델 캐시용
+    
+  # ngrok 터널 (선택사항 - 외부 접속용)
+  ngrok:
+    image: ngrok/ngrok:latest
+    container_name: ngrok-tunnel
+    command:
+      - "http"
+      - "ai-server:8000"
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN:-your_token_here}
+    ports:
+      - "4040:4040"  # ngrok 웹 UI
+    depends_on:
+      - ai-server
+    restart: unless-stopped
